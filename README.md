@@ -123,7 +123,7 @@ Dans **Outils > Gérer les bibliothèques** :
 ### 3. Compiler et flasher
 
 # Cloner hle dépôt
-git clone https://github.com/kopi3daniel/LoRaPhone.git
+git clone https://github.com/kopi3daniel/alyPhone
 
 # Ouvrir teleogone_lora.ino dans Arduino IDE
 
