@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * storage.h - Gestion du stockage persistant pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce module gere la sauvegarde et le chargement des donnees
  * dans la memoire Flash du STM32F103C8T6 (64KB).
  * 

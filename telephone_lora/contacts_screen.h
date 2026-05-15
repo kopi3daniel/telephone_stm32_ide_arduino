@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * contacts_screen.h - Ecran du repertoire de contacts du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+ 
  * Cet ecran gere l affichage et la navigation dans le repertoire.
  * Fonctionnalites :
  * - Liste des contacts avec defilement

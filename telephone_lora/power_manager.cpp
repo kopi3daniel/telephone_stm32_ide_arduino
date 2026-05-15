@@ -1,12 +1,4 @@
 
-
-/**
- * ---------------------------------------------------------------------------
- * power_manager.cpp - Implementation de la gestion d energie
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
-
 #include "power_manager.h"
 #include "display.h"        // <-- AJOUTER : pour Display
 #include <stdio.h>

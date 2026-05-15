@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * call_screen.h - Ecran d appel en cours du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Cet ecran gere l affichage pendant un appel telephonique.
  * Il montre :
  * - Le nom et numero du correspondant

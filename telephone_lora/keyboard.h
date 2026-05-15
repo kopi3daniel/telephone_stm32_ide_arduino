@@ -1,7 +1,3 @@
-/**
- * keyboard.h - Gestion du clavier matriciel 4x6
- * Version Arduino IDE
- */
 
 #ifndef KEYBOARD_H
 #define KEYBOARD_H

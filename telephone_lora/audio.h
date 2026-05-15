@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * audio.h - Gestion audio (Microphone + Haut-parleur) pour Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce fichier declare la classe Audio qui gere :
  * - La capture du microphone via l ADC (analogRead)
  * - La lecture audio via PWM (analogWrite / tone)

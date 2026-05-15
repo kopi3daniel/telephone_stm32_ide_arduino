@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * lora_driver.h - Driver pour le module LoRa RA-02 (SX1278)
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce fichier declare la classe LoRaDriver qui gere :
  * - L initialisation du module SX1278 via SPI
  * - L envoi de paquets radio

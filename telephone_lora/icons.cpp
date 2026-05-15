@@ -1,9 +1,3 @@
-/**
- * ---------------------------------------------------------------------------
- * icons.cpp - Implementation des bitmaps d icones
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
 
 #include "icons.h"
 #include <string.h>

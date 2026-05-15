@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * crc.cpp - Implementation des fonctions de checksum
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "crc.h"
 #include <string.h>

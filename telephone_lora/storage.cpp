@@ -1,10 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * storage.cpp - Implementation du stockage Flash
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * Utilise l EEPROM emulee du core STM32 Arduino pour la persistance.
- */
+
 
 #include "storage.h"
 #include <string.h>

@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * dialer_screen.h - Ecran de numerotation du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Cet ecran gere la composition des numeros de telephone.
  * Fonctionnalites :
  * - Affichage du numero compose en temps reel

@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * icons.h - Bibliotheque d icones bitmap pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce fichier contient TOUTES les icones utilisees dans l interface
  * sous forme de bitmaps 8x8 et 16x16 pixels.
  * 

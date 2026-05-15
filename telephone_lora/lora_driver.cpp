@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * lora_driver.cpp - Implementation du driver LoRa RA-02 (SX1278)
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 //#include "lora_driver.h"
 

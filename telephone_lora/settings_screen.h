@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * settings_screen.h - Ecran des parametres du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+  
  * Cet ecran gere tous les reglages du telephone :
  * - Son (volume, sonnerie, vibreur, mode silencieux)
  * - Ecran (luminosite, timeout)

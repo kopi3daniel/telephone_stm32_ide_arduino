@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * status_bar.h - Barre d etat du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce widget gere l affichage de la barre d etat en haut de l ecran.
  * Elle affiche en permanence :
  * - La force du signal LoRa (icone + dBm)

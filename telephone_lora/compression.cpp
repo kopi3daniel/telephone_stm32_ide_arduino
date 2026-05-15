@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * compression.cpp - Implementation ADPCM IMA
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "compression.h"
 #include <string.h>

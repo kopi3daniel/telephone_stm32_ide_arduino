@@ -1,7 +1,4 @@
-/**
- * config.h - Configuration globale du Téléphone LoRa
- * (Version Arduino IDE - Compatible STM32F103C8T6 et Blues)
- */
+
 
 #ifndef CONFIG_H
 #define CONFIG_H
@@ -81,13 +78,15 @@ const char KEYPAD_LAYOUT[KEYPAD_ROWS][KEYPAD_COLS] = {
 #define BATTERY_ADC_PIN             PA_0
 
 // --- Debug UART ---
-#define DEBUG_SERIAL                Serial
+#define DEBUG_SERIAL                Serial1
 #define DEBUG_BAUDRATE              115200
 
 // ============================================
 // 3. PARAMÈTRES LORA
 // ============================================
-#define LORA_FREQ                   868.0f
+// #define LORA_FREQ                   868.0f
+// #define LORA_FREQ                   915.0f
+#define LORA_FREQ                   433.0f
 
 #define LORA_VOICE_BANDWIDTH        250.0f
 #define LORA_VOICE_SPREADING_FACTOR 7

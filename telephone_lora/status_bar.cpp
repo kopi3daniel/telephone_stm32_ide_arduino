@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * status_bar.cpp - Implementation de la barre d etat
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "status_bar.h"
 #include "display.h"

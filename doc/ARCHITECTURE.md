@@ -1,6 +1,4 @@
-Voici le fichier `ARCHITECTURE.md` corrigé avec vos informations GitHub :
 
-```markdown
 # 🏗️ Architecture du Téléphone LoRa
 
 > **Version :** 1.0.0  
@@ -9,7 +7,6 @@ Voici le fichier `ARCHITECTURE.md` corrigé avec vos informations GitHub :
 > **Dépôt :** [github.com/kopi3daniel](https://github.com/kopi3daniel)  
 > **Cible :** STM32F103C8T6 (Blue Pill) + LoRa RA-02 (SX1278)
 
----
 
 ## 📋 Table des matières
 
@@ -24,7 +21,6 @@ Voici le fichier `ARCHITECTURE.md` corrigé avec vos informations GitHub :
 9. [Sécurité](#sécurité)
 10. [Performances](#performances)
 
----
 
 ## Vue d'ensemble
 
@@ -42,7 +38,7 @@ Le Téléphone LoRa est un appareil de communication longue portée qui fonction
 
 ### Diagramme de contexte
 
-```
+
 ┌─────────────────────────────────────────────────────────────┐
 │                      ENVIRONNEMENT                           │
 │                                                              │
@@ -75,9 +71,8 @@ Le Téléphone LoRa est un appareil de communication longue portée qui fonction
 │   │              └───────────────┘                   │        │
 │   └──────────────────────────────────────────────────┘        │
 └─────────────────────────────────────────────────────────────┘
-```
 
----
+
 
 ## Architecture matérielle
 
@@ -98,7 +93,7 @@ Le Téléphone LoRa est un appareil de communication longue portée qui fonction
 
 ### Brochage détaillé
 
-```
+
 STM32F103C8T6 (Blue Pill) - 48 pins
 
 ┌─────────────────────────────────────────────────────┐
@@ -134,15 +129,14 @@ STM32F103C8T6 (Blue Pill) - 48 pins
 │  PC15 → Buzzer                                      │
 │                                                     │
 └─────────────────────────────────────────────────────┘
-```
 
----
+
 
 ## Architecture logicielle
 
 ### Structure en couches
 
-```
+
 ┌─────────────────────────────────────────────────────────────┐
 │                     APPLICATION (main.cpp)                   │
 │                    Machine d'états globale                    │
@@ -187,17 +181,17 @@ STM32F103C8T6 (Blue Pill) - 48 pins
 │                     HARDWARE                                 │
 │    (STM32F103C8T6, SX1278, SSD1306, Clavier, Audio)       │
 └─────────────────────────────────────────────────────────────┘
-```
+
 
 ### Arborescence des fichiers
 
-```
+
 LoRaPhone/
 │
 ├── 📁 docs/                             # Documentation
 │   └── 📄 ARCHITECTURE.md               # Ce document
 │
-├── 📁 src/                              # Code source
+├── 📄 teleogone_lora.ino                # Point d'entrée Arduino                              # Code source
 │   ├── 📄 config.h                      # Configuration globale
 │   ├── 📄 keyboard.h / .cpp             # Clavier 4×6 + multi-tap
 │   ├── 📄 display.h / .cpp              # Écran OLED SSD1306
@@ -224,10 +218,8 @@ LoRaPhone/
 │   ├── 📄 compression.h / .cpp          # Compression ADPCM
 │   ├── 📄 storage.h / .cpp              # Stockage Flash
 │   ├── 📄 crc.h / .cpp                  # Checksums
-│   └── 📄 teleogone_lora.ino            # Point d'entrée Arduino
-```
 
----
+
 
 ## Modules et responsabilités
 
@@ -271,13 +263,12 @@ LoRaPhone/
 | **CRC** | CRC8, CRC16, checksums |
 | **Buffers** | Buffers circulaires, files d'attente |
 
----
 
 ## Flux de données
 
 ### Flux d'un appel vocal
 
-```
+
 MICROPHONE                    HAUT-PARLEUR
     │                              ▲
     ▼                              │
@@ -313,15 +304,14 @@ MICROPHONE                    HAUT-PARLEUR
                │ Antenne │
                │ 868 MHz │
                └─────────┘
-```
 
----
+
 
 ## Machine d'états
 
 ### États globaux du téléphone
 
-```
+
                     ┌──────────────┐
                     │   POWER_ON   │
                     └──────┬───────┘
@@ -345,9 +335,8 @@ MICROPHONE                    HAUT-PARLEUR
         ┌─────────┐
         │CALL_END │──────────► HOME
         └─────────┘
-```
 
----
+
 
 ## Gestion de l'énergie
 
@@ -370,7 +359,6 @@ MICROPHONE                    HAUT-PARLEUR
 | Veille légère | ~1 semaine |
 | Veille profonde | ~1 mois |
 
----
 
 ## Performances
 
@@ -389,7 +377,6 @@ MICROPHONE                    HAUT-PARLEUR
 | RAM utilisée | ~12 KB / 20 KB |
 | Flash utilisée | ~52 KB / 64 KB |
 
----
 
 ## Licence et Contact
 
@@ -397,10 +384,8 @@ MICROPHONE                    HAUT-PARLEUR
 - **Dépôt** : [github.com/kopi3daniel](https://github.com/kopi3daniel)
 - **Licence** : MIT License
 
----
 
 > *Documentation générée avec ❤️ pour la communauté open-source*
 > *Projet Téléphone LoRa - Communications longue portée sans infrastructure*
-```
 
----
+

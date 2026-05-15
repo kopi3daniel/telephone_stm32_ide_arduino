@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * crypto.cpp - Implementation du chiffrement AES-128 et de la securite
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "crypto.h"
 #include <string.h>

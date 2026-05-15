@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * sms_screen.h - Ecran de messagerie SMS du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+ 
  * Cet ecran gere toute l interface des messages texte :
  * - Liste des conversations (apercu du dernier message)
  * - Vue d une conversation (bulles de dialogue)

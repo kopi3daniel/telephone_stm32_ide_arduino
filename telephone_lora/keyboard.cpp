@@ -1,7 +1,4 @@
-/**
- * keyboard.cpp - Implémentation du clavier matriciel 4x6
- * Version Arduino IDE
- */
+
 
 #include "keyboard.h"
 #include <Keypad.h>

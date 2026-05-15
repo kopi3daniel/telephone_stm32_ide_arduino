@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * sms_manager.cpp - Implementation de la gestion des SMS
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "sms_manager.h"
 #include "lora_driver.h"

@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * contacts_screen.cpp - Implementation de l ecran contacts
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "contacts_screen.h"
 #include "display.h"

@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * buffers.cpp - Implementation des buffers pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "buffers.h"
 #include <string.h>

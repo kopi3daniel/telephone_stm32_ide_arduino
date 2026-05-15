@@ -1,9 +1,5 @@
  /**
- * ---------------------------------------------------------------------------
- * display.cpp - Implémentation complète de l'écran OLED 1.3" 128x64
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+ 
  * Ce fichier contient TOUT le code graphique du téléphone.
  * Chaque fonction est commentée avec ce qu'elle fait et pourquoi.
  * 

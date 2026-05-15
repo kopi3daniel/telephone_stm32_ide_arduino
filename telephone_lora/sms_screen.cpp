@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * sms_screen.cpp - Implementation de l ecran SMS
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "sms_screen.h"
 #include "display.h"

@@ -1,8 +1,4 @@
 /*
- * ---------------------------------------------------------------------------
- * audio.cpp - Implémentation complète du module audio
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
 
 
   ORDRE IMPORTANT : audio.h en premier (il inclut Arduino.h et config.h)

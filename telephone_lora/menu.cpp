@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * menu.cpp - Implementation du widget de menu
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "menu.h"
 #include "display.h"

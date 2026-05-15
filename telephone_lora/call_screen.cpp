@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * call_screen.cpp - Implementation de l ecran d appel
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "call_screen.h"
 #include "display.h"

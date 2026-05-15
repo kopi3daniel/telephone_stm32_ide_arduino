@@ -1,4 +1,4 @@
-/**
+
  * ---------------------------------------------------------------------------
  * settings_screen.cpp - Implementation de l ecran des parametres
  * (Version Arduino IDE - STM32F103C8T6 Blue Pill)

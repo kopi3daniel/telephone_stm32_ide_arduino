@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * dialog.h - Boites de dialogue pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce widget gere toutes les boites de dialogue :
  * - Alerte simple (message + OK)
  * - Confirmation (Oui/Non)

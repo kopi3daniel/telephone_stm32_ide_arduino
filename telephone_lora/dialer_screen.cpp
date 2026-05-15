@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * dialer_screen.cpp - Implementation de l ecran de numerotation
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "dialer_screen.h"
 #include "display.h"

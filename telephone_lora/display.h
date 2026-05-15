@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * display.h - Gestion de l'écran OLED 1.3" 128x64 pour Téléphone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Bibliothèques requises :
  * - Adafruit GFX Library (par Adafruit)
  * - Adafruit SSD1306 (par Adafruit)

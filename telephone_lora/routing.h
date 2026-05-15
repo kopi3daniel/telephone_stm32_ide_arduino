@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * routing.h - Routage et decouverte reseau pour Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce fichier declare la classe RoutingManager qui gere :
  * - La decouverte des autres telephones sur le reseau
  * - La table de routage (numero -> ID -> chemin)

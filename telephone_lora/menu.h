@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * menu.h - Widget de menu pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce widget gere l affichage et la navigation dans les menus.
  * Il est utilise par tous les ecrans qui ont besoin d une liste
  * d options a faire defiler et a selectionner.

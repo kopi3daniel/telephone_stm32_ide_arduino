@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * home_screen.h - Ecran d accueil du Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Cet ecran est la page principale affichee quand le telephone est allume.
  * Il montre :
  * - L horloge en grand

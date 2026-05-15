@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * buffers.h - Gestion des buffers circulaires pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce module fournit des structures de buffers pour :
  * - Buffer audio (capture micro + lecture haut-parleur)
  * - Buffer de paquets LoRa (file d attente emission/reception)

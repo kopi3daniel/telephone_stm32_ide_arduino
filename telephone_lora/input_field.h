@@ -1,17 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * input_field.h - Champ de saisie de texte pour le Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
- * Ce widget gere un champ de saisie de texte avec :
- * - Curseur clignotant
- * - Affichage du texte saisi
- * - Indicateur de mode (abc/ABC/123)
- * - Caractere en cours de previsualisation (multi-tap)
- * - Limite de caracteres
- * - Compteur de caracteres restants
- */
+
 
 #ifndef INPUT_FIELD_H
 #define INPUT_FIELD_H

@@ -1,10 +1,8 @@
-Voici un `README.md` complet et prêt à être publié sur votre GitHub :
 
----
 
 ## 📄 `README.md` complet pour GitHub
 
-```markdown
+
 # 📱 Téléphone LoRa - Communication longue portée sans réseau mobile
 
 > **Auteur :** [kopi3daniel (Daniel)](https://github.com/kopi3daniel)  
@@ -13,7 +11,6 @@ Voici un `README.md` complet et prêt à être publié sur votre GitHub :
 > **Cible :** STM32F103C8T6 (Blue Pill) + RA-02 (SX1278)  
 > **Environnement :** Arduino IDE
 
----
 
 ## 🎯 Présentation
 
@@ -37,11 +34,11 @@ Imaginez un téléphone qui fonctionnerait comme un talkie-walkie ultra perfecti
 - ✅ **Découverte réseau** automatique
 - ✅ **Portée** 5-15 km en ligne de vue
 
----
+
 
 ## 📸 Aperçu
 
-```
+
 ┌──────────────────────────┐
 │ ▂▂▂▂ 14:30    ████ 85%  │ ← Barre d'état
 ├──────────────────────────┤
@@ -56,15 +53,13 @@ Imaginez un téléphone qui fonctionnerait comme un talkie-walkie ultra perfecti
 ┌──────────────────────────┐
 │   Appel avec BOB         │
 │                          │
-│       ☎️ 🟢              │
+│       ☎️ 🟢             │
 │    00:02:34              │
 │                          │
-│  [🎤 Muet] [🔊 HP]       │
+│  [🎤 Muet] [🔊 HP]      │
 │  [❌ Raccrocher]         │
 └──────────────────────────┘
-```
 
----
 
 ## 🛠️ Matériel requis
 
@@ -85,7 +80,7 @@ Imaginez un téléphone qui fonctionnerait comme un talkie-walkie ultra perfecti
 | Divers | Résistances, cond., fils... | - | ~5€ |
 | **TOTAL** | | | **~35€** |
 
----
+
 
 ## 🔌 Schéma de câblage rapide
 
@@ -105,7 +100,6 @@ Imaginez un téléphone qui fonctionnerait comme un talkie-walkie ultra perfecti
 
 📖 **Schéma complet :** [docs/SCHEMATIC.md](docs/SCHEMATIC.md)
 
----
 
 ## ⚡ Démarrage rapide (Arduino IDE)
 
@@ -128,8 +122,7 @@ Dans **Outils > Gérer les bibliothèques** :
 
 ### 3. Compiler et flasher
 
-```bash
-# Cloner le dépôt
+# Cloner hle dépôt
 git clone https://github.com/kopi3daniel/LoRaPhone.git
 
 # Ouvrir teleogone_lora.ino dans Arduino IDE
@@ -138,13 +131,13 @@ git clone https://github.com/kopi3daniel/LoRaPhone.git
 # Mettre le cavalier BOOT0 sur 1
 # Compiler et téléverser
 # Remettre BOOT0 sur 0
-```
 
----
+
+
 
 ## 📁 Structure du projet
 
-```
+
 LoRaPhone/
 ├── 📄 telephone_lora.ino       # Programme principal Arduino
 |   |__ config.h                 # Configuration globale (broches, fréquences...)
@@ -177,9 +170,6 @@ LoRaPhone/
 │   ├── PROTOCOL.md             # Protocole de communication
 │   └── SCHEMATIC.md            # Schéma électronique
 └── 📄 LICENSE                  # Licence MIT
-```
-
----
 
 ## 📊 Performances
 
@@ -195,7 +185,6 @@ LoRaPhone/
 | Flash utilisée | ~52 KB / 64 KB |
 | RAM utilisée | ~12 KB / 20 KB |
 
----
 
 ## 📚 Documentation
 
@@ -203,7 +192,6 @@ LoRaPhone/
 - 📡 [Protocole de communication](docs/PROTOCOL.md)
 - 🔧 [Schéma électronique](docs/SCHEMATIC.md)
 
----
 
 ## 🤝 Contribuer
 
@@ -215,13 +203,13 @@ Les contributions sont les bienvenues !
 4. Pousser (`git push origin feature/ma-fonctionnalite`)
 5. Ouvrir une **Pull Request**
 
----
+
 
 ## 📝 Licence
 
 Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
----
+
 
 ## 👤 Auteur
 
@@ -229,7 +217,7 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 
 - GitHub : [@kopi3daniel](https://github.com/kopi3daniel)
 
----
+
 
 ## ⭐ Remerciements
 
@@ -238,7 +226,7 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 - **STM32 Core for Arduino** (STMicroelectronics)
 - Communauté **Open Source**
 
----
+
 
 <div align="center">
 

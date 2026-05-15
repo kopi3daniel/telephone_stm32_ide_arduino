@@ -1,6 +1,4 @@
-Le fichier `PROTOCOL.md` est déjà complet et bien structuré. Voici la version avec votre signature GitHub :
 
-```markdown
 # 📡 Protocole de Communication - Téléphone LoRa
 
 > **Version :** 1.0.0  
@@ -9,7 +7,7 @@ Le fichier `PROTOCOL.md` est déjà complet et bien structuré. Voici la version
 > **Dépôt :** [github.com/kopi3daniel](https://github.com/kopi3daniel)  
 > **Cible :** Communication radio LoRa entre téléphones
 
----
+
 
 ## 📋 Table des matières
 
@@ -53,11 +51,11 @@ Ce protocole définit les règles de communication entre téléphones LoRa. Il p
 | MTU | 255 octets |
 | Half-duplex | Oui (un seul émetteur à la fois) |
 
----
+
 
 ## Couches du protocole
 
-```
+
 ┌─────────────────────────────────────────────────────┐
 │                   APPLICATION                        │
 │         (Appels, SMS, Contacts, Fichiers)            │
@@ -77,9 +75,9 @@ Ce protocole définit les règles de communication entre téléphones LoRa. Il p
 │                    PHYSIQUE                          │
 │         (LoRa SX1278, 868 MHz, SF/BW/CR)            │
 └─────────────────────────────────────────────────────┘
-```
 
----
+
+
 
 ## Format des paquets
 
@@ -87,13 +85,13 @@ Ce protocole définit les règles de communication entre téléphones LoRa. Il p
 
 Tous les paquets commencent par un en-tête fixe de 8 octets.
 
-```
+
 ┌────────────┬────────────┬──────────────┬──────────────┬─────────────┬────────────┬──────────────┐
 │ Sync Byte  │ Packet Type│ Sender ID    │ Target ID    │ Sequence    │ Payload    │ Payload      │
 │ 1 octet    │ 1 octet    │ 2 octets     │ 2 octets     │ Number      │ Size       │ Data         │
 │            │            │              │              │ 1 octet     │ 1 octet    │ 0-247 octets │
 └────────────┴────────────┴──────────────┴──────────────┴─────────────┴────────────┴──────────────┘
-```
+
 
 ### Description des champs
 
@@ -107,7 +105,7 @@ Tous les paquets commencent par un en-tête fixe de 8 octets.
 | **Payload Size** | 1 | Taille du payload | 0-247 |
 | **Payload Data** | 0-247 | Données utiles | Dépend du type |
 
----
+
 
 ## Types de paquets
 
@@ -130,13 +128,13 @@ Tous les paquets commencent par un en-tête fixe de 8 octets.
 | `0x60` | `DNS_REQUEST` | Résolution numéro→ID | Moyenne | Non | Data |
 | `0x61` | `DNS_RESPONSE` | Réponse DNS | Moyenne | Non | Data |
 
----
+
 
 ## Protocole d'appel
 
 ### Diagramme de séquence
 
-```
+
 ÉMETTEUR (Alice)                          RÉCEPTEUR (Bob)
      │                                         │
      │ ════════ PHASE 1 : ÉTABLISSEMENT ═══════│
@@ -158,34 +156,34 @@ Tous les paquets commencent par un en-tête fixe de 8 octets.
      │                                         │
      │ 6. CALL_END ←─────────────────────────→ │
      │ 7. Retour mode DATA (SF9/BW125)        │
-```
+
 
 ### États d'un appel
 
-```
+
 IDLE → DIALING → RINGING_REMOTE → ACTIVE → ENDING → ENDED
                     ▲                │
                     │                │
                RINGING_LOCAL ◄───────┘
-```
 
----
+
+
 
 ## Protocole SMS
 
 ### Envoi d'un message simple (≤ 160 caractères)
 
-```
+
 ÉMETTEUR                                RÉCEPTEUR
     │                                       │
     │ 1. SMS_TEXT ────────────────────────→ │
     │ 2. ←──────────────── SMS_ACK ──────── │
     │ 3. Confirmation "Envoyé"              │
-```
+
 
 ### Envoi d'un message long (> 160 caractères)
 
-```
+
 ÉMETTEUR                                RÉCEPTEUR
     │                                       │
     │ 1. SMS_TEXT (frag=1/3) ─────────────→ │
@@ -193,9 +191,8 @@ IDLE → DIALING → RINGING_REMOTE → ACTIVE → ENDING → ENDED
     │ 3. SMS_TEXT (frag=3/3) ─────────────→ │
     │                                       │ 4. Assemble les fragments
     │ 5. ←─────────────── SMS_DELIVERY ──── │
-```
 
----
+
 
 ## Paramètres radio
 
@@ -225,13 +222,13 @@ IDLE → DIALING → RINGING_REMOTE → ACTIVE → ENDING → ENDED
 | Latence | ~300ms |
 | Portée | ~15 km |
 
----
+
 
 ## Exemples
 
 ### Exemple : Appel complet (hexadécimal)
 
-```
+
 CALL_REQUEST (Alice → Bob) :
 AA 10 00 01 00 02 01 10 30 30 30 31 00 41 6C 69 63 65
 
@@ -240,16 +237,16 @@ AA 11 00 02 00 01 01 00
 
 CALL_ACCEPT (Bob → Alice) :
 AA 12 00 02 00 01 02 00
-```
 
----
+
+
 
 ## 📚 Références
 
 - [Architecture du projet](ARCHITECTURE.md)
 - [Datasheet SX1278](https://www.semtech.com/products/wireless-rf/lora-connect/sx1278)
 
----
+
 
 ## Licence et Contact
 
@@ -257,10 +254,10 @@ AA 12 00 02 00 01 02 00
 - **Dépôt** : [github.com/kopi3daniel](https://github.com/kopi3daniel)
 - **Licence** : MIT License
 
----
+
 
 > *Documentation générée pour le projet Téléphone LoRa*
 > *Communications longue portée sans infrastructure*
-```
 
----
+
+

@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * timers.cpp - Implementation des timers logiciels
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "timers.h"
 #include <string.h>

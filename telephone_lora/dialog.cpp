@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * dialog.cpp - Implementation des boites de dialogue
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "dialog.h"
 #include "display.h"

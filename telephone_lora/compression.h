@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * compression.h - Compression/Decompression audio ADPCM pour Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+
  * Ce module implemente l algorithme ADPCM (Adaptive Differential PCM)
  * selon le standard IMA (Interactive Multimedia Association).
  * 

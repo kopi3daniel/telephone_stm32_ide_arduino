@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * crypto.h - Chiffrement et securite pour Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce fichier declare la classe CryptoManager qui gere :
  * - Le chiffrement/dechiffrement AES-128 des communications
  * - La gestion des cles partagees

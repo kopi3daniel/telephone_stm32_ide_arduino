@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * input_field.cpp - Implementation du champ de saisie
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "input_field.h"
 #include "display.h"

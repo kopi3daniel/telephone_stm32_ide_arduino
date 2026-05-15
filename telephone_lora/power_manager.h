@@ -1,9 +1,4 @@
 /**
- * ---------------------------------------------------------------------------
- * power_manager.h - Gestion de l energie et de la batterie
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
  * Ce fichier declare la classe PowerManager qui gere :
  * - La mesure de la tension batterie via ADC
  * - Le calcul du pourcentage restant

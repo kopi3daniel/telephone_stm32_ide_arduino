@@ -1,13 +1,13 @@
 ## 📄 FICHIER COMPLET : `docs/USER_MANUAL.md`
 
-```markdown
+
 # 📖 Manuel Utilisateur - Téléphone LoRa
 
 > **Version :** 1.0.0  
 > **Date :** 2024  
 > **Appareil :** Téléphone LoRa
 
----
+
 
 ## 📋 Table des matières
 
@@ -29,7 +29,7 @@
 16. [Dépannage](#dépannage)
 17. [Foire aux questions](#foire-aux-questions)
 
----
+
 
 ## Présentation
 
@@ -61,49 +61,49 @@ Le Téléphone LoRa est un appareil de communication qui fonctionne **sans rése
 | Câble USB | Pour le chargement |
 | Guide de démarrage | Ce document |
 
----
+
 
 ## Première utilisation
 
 ### 1. Insérer la batterie
 
-```
+
 1. Ouvrir le compartiment batterie (à l'arrière)
 2. Insérer la batterie 18650 (respecter la polarité + / -)
 3. Refermer le compartiment
-```
+
 
 ### 2. Visser l'antenne
 
-```
+
 1. Prendre l'antenne fournie
 2. La visser sur le connecteur SMA en haut de l'appareil
 3. Ne pas forcer, visser à la main
 ⚠️ Ne jamais allumer le téléphone sans antenne !
-```
+
 
 ### 3. Charger la batterie
 
-```
+
 1. Brancher le câble USB sur le port de charge
 2. Connecter à une source USB (PC, chargeur secteur)
 3. La LED rouge s'allume pendant la charge
 4. La LED verte s'allume quand la charge est terminée
 5. Première charge : laisser charger 4 heures
-```
+
 
 ### 4. Allumer le téléphone
 
-```
+
 1. Maintenir le bouton POWER enfoncé 3 secondes
 2. L'écran affiche le logo "PHONE LORA"
 3. Après 2 secondes, l'écran d'accueil apparaît
 4. Le téléphone est prêt !
-```
+
 
 ### 5. Configurer votre numéro
 
-```
+
 Par défaut, votre téléphone a le numéro "0001".
 
 Pour le changer :
@@ -113,15 +113,15 @@ Pour le changer :
 4. Appuyer sur VERT pour enregistrer
 
 Exemples de numéros : 0001, 0002, A0F3, BEEF
-```
 
----
+
+
 
 ## Description de l'appareil
 
 ### Vue de face
 
-```
+
 ┌──────────────────────────────────────────────┐
 │  ┌──────────────────────────────────────┐    │
 │  │          ÉCRAN OLED 1.3"             │    │
@@ -148,11 +148,11 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │                                              │
 │   Microphone (en bas)                        │
 └──────────────────────────────────────────────┘
-```
+
 
 ### Vue de profil
 
-```
+
 ┌──────────────────────────────────────────────┐
 │                    ANTENNE                   │
 │                       │                      │
@@ -170,7 +170,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │                    │                         │
 │              HAUT-PARLEUR                    │
 └──────────────────────────────────────────────┘
-```
+
 
 ### Signification des touches
 
@@ -192,13 +192,12 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 | **K** | Torche | Allumer/éteindre la lampe |
 | **L** | Verrouiller | Verrouiller le téléphone |
 
----
 
 ## Écran d'accueil
 
 ### Description
 
-```
+
 ┌──────────────────────────┐
 │ 📶 -85dBm   14:30  🔋85%│ ← Barre d'état
 ├──────────────────────────┤
@@ -210,7 +209,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │  Appels SMS  Cts  Régl.  │
 │                          │
 └──────────────────────────┘
-```
+
 
 ### Barre d'état
 
@@ -226,7 +225,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 | 🔦 | Torche allumée |
 | 🔒 | Téléphone verrouillé |
 
----
+
 
 ## Passer un appel
 
@@ -267,7 +266,6 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 2. Appuyer deux fois sur **VERT**
 3. Le dernier numéro est recomposé automatiquement
 
----
 
 ## Recevoir un appel
 
@@ -299,13 +297,13 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 - Une notification apparaît sur l'écran d'accueil
 - L'appel est enregistré dans le journal
 
----
+
 
 ## Pendant un appel
 
 ### Options disponibles
 
-```
+
 ┌──────────────────────────┐
 │   Appel avec BOB         │
 │                          │
@@ -315,7 +313,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │  [🎤 Muet] [🔊 HP]       │
 │  [➕ Vol+]  [❌ Fin]     │
 └──────────────────────────┘
-```
+
 
 | Action | Touche | Effet |
 |--------|--------|-------|
@@ -334,7 +332,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
   - Évitez le bruit de fond
   - Tournez-vous vers une direction dégagée
 
----
+
 
 ## Envoyer un SMS
 
@@ -386,7 +384,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 
 ### Dans une conversation
 
-```
+
 ┌──────────────────────────┐
 │   Conversation avec BOB  │
 ├──────────────────────────┤
@@ -397,7 +395,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │                          │
 │  [VERT: Répondre]        │
 └──────────────────────────┘
-```
+
 
 ### Notifications
 
@@ -405,7 +403,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 - Le téléphone émet un bip sonore
 - Le nombre de messages non lus est affiché
 
----
+
 
 ## Gérer les contacts
 
@@ -439,7 +437,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 2. Appuyer sur `*` pour mettre en favori
 3. Une étoile ★ apparaît à côté du nom
 
----
+
 
 ## Journal d'appels
 
@@ -463,13 +461,13 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 - Appuyer sur `C` pour ajouter aux contacts
 - Appuyer sur `D` pour envoyer un SMS
 
----
+
 
 ## Paramètres
 
 ### Menu Réglages
 
-```
+
 ┌──────────────────────────┐
 │       RÉGLAGES           │
 ├──────────────────────────┤
@@ -480,7 +478,7 @@ Exemples de numéros : 0001, 0002, A0F3, BEEF
 │ > Énergie               │
 │ > Système               │
 └──────────────────────────┘
-```
+
 
 ### Son et vibrations
 
@@ -550,7 +548,7 @@ Le téléphone utilise le système **multi-tap** pour écrire du texte avec les 
 | `C` | Effacer le dernier caractère |
 | `*` | Insérer un symbole |
 
----
+
 
 ## Batterie et énergie
 
@@ -588,7 +586,7 @@ Pour maximiser l'autonomie :
 - Réduire le volume
 - Éteindre la torche après usage
 
----
+
 
 ## Sécurité
 
@@ -619,7 +617,7 @@ Si vous oubliez votre code PIN, vous devez faire un **reset usine** :
 Le chiffrement AES-128 peut être activé dans Réglages → Sécurité → Chiffrement.
 Tous les téléphones du groupe doivent avoir le chiffrement activé avec la même clé.
 
----
+
 
 ## Dépannage
 
@@ -654,7 +652,7 @@ Pour effacer toutes les données :
 3. Confirmer avec VERT
 4. Le téléphone redémarre comme neuf
 
----
+
 
 ## Foire aux questions
 
@@ -686,16 +684,16 @@ Pour effacer toutes les données :
 
 **R :** Environ 500 cycles de charge (2-3 ans d'utilisation normale). La batterie est remplaçable (format 18650 standard).
 
----
+
 
 ## 📚 Références
 
 - [Architecture du projet](ARCHITECTURE.md)
 - [Protocole de communication](PROTOCOL.md)
 - [Schéma électronique](SCHEMATIC.md)
-```
 
----
+
+
 
 ## ✅ FICHIER CRÉÉ
 
@@ -703,7 +701,7 @@ Pour effacer toutes les données :
 |---------|--------|
 | `docs/USER_MANUAL.md` | ~700 |
 
----
+
 
 ## 🎉 DOCUMENTATION COMPLÈTE !
 
@@ -717,7 +715,7 @@ Le dossier `docs/` contient maintenant :
 | `USER_MANUAL.md` | ~700 | Manuel utilisateur complet |
 | **TOTAL** | **~2700** | **Documentation complète** |
 
----
+
 
 ## 📊 PROJET 100% TERMINÉ
 

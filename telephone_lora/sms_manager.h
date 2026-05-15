@@ -1,9 +1,5 @@
 /**
- * ---------------------------------------------------------------------------
- * sms_manager.h - Gestion des messages texte (SMS) pour Telephone LoRa
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- * 
+ 
  * Ce fichier declare la classe SMSManager qui gere :
  * - L envoi de SMS (max 160 caracteres)
  * - La reception de SMS

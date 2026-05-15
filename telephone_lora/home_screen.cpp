@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * home_screen.cpp - Implementation de l ecran d accueil
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "home_screen.h"
 #include "display.h"

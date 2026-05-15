@@ -1,9 +1,4 @@
-/**
- * ---------------------------------------------------------------------------
- * routing.cpp - Implementation du routage et decouverte reseau
- * (Version Arduino IDE - STM32F103C8T6 Blue Pill)
- * ---------------------------------------------------------------------------
- */
+
 
 #include "routing.h"
 #include "lora_driver.h"
