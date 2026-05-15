@@ -41,7 +41,7 @@
 
 // Lignes (Output)
 const uint8_t KEYPAD_ROW_PINS[KEYPAD_ROWS] = {
-    PB_12, PB_13, PB_14, PB_15, PA_8, PA_9
+    PB_12, PB_13, PB_14, PB_15, PB_1, PA_9
 };
 
 // Colonnes (Input)

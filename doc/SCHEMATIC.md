@@ -273,7 +273,7 @@
 │  Ligne 3 ─── PB14                                           │
 │  Ligne 4 ─── PB15                                           │
 │  Ligne 5 ─── PA9                                            │
-│  Ligne 6 ─── PA8 (⚠️ partagé avec PWM audio !)              │
+│  Ligne 6 ─── PB1 (⚠️ partagé avec PWM audio !)  OK             │
 │                                                              │
 │  ⚠️  CONFLIT : PA8 est utilisé pour le HP (TIM1_CH1)        │
 │      et la ligne 6 du clavier.                               │
@@ -295,7 +295,7 @@
 │  ├─────┼─────┼─────┼─────┤                                  │
 │  │ 'E' │ 'F' │ 'G' │ 'H' │── Ligne 5 (PA9)                 │
 │  ├─────┼─────┼─────┼─────┤                                  │
-│  │ 'I' │ 'J' │ 'K' │ 'L' │── Ligne 6 (PA8) ⚠️               │
+│  │ 'I' │ 'J' │ 'K' │ 'L' │── Ligne 6 (PB1) ⚠️       OK        │
 │  └─────┴─────┴─────┴─────┘                                  │
 │                                                              │
 │  Symbole des touches :                                      │
@@ -549,7 +549,7 @@ Utiliser une pin libre à la place de PA8 :
 │ PA5    │ LoRa SCK (SPI1)                │          │
 │ PA6    │ LoRa MISO (SPI1)               │          │
 │ PA7    │ LoRa MOSI (SPI1)               │          │
-│ PA8    │ HP PWM (TIM1_CH1)              │⚠️ Clavier│
+│ PB1    │ HP PWM (TIM1_CH1)              │⚠️ Clavier│
 │ PA9    │ Clavier Ligne 5                │          │
 │ PA10   │ Clavier Colonne 4              │          │
 │ PA11   │ (libre / USB_DM)               │          │
@@ -559,7 +559,7 @@ Utiliser une pin libre à la place de PA8 :
 │ PA15   │ (libre si JTAG désactivé)      │          │
 ├────────┼────────────────────────────────┼──────────┤
 │ PB0    │ Mesure batterie (ADC1_CH8)     │          │
-│ PB1    │ (libre)                        │          │
+│ PB1    │ (libre)                        │⚠️ Clavier│
 │ PB3    │ Clavier Colonne 1              │          │
 │ PB4    │ Clavier Colonne 2              │          │
 │ PB5    │ Clavier Colonne 3              │          │
