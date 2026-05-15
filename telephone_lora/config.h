@@ -81,7 +81,7 @@ const char KEYPAD_LAYOUT[KEYPAD_ROWS][KEYPAD_COLS] = {
 #define BATTERY_ADC_PIN             PA_0
 
 // --- Debug UART ---
-#define DEBUG_SERIAL                Serial1
+#define DEBUG_SERIAL                Serial
 #define DEBUG_BAUDRATE              115200
 
 // ============================================
