@@ -933,6 +933,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2766,6 +2906,1092 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -15.24 39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STM32F103C8Tx"
+				(at 7.62 39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+				(at -15.24 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Arm Cortex-M3 STM32F1 STM32F103"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LQFP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STM32F103C8Tx_0_1"
+				(rectangle
+					(start -15.24 -38.1)
+					(end 15.24 38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STM32F103C8Tx_1_1"
+				(pin power_in line
+					(at -5.08 40.64 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RTC_OUT" bidirectional line)
+					(alternate "RTC_TAMPER" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC32_IN" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "RCC_OSC32_OUT" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC_IN" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "PD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC_OUT" bidirectional line)
+				)
+				(pin input line
+					(at -17.78 33.02 0)
+					(length 2.54)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 33.02 180)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN0" bidirectional line)
+					(alternate "ADC2_IN0" bidirectional line)
+					(alternate "SYS_WKUP" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+					(alternate "USART2_CTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 30.48 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN1" bidirectional line)
+					(alternate "ADC2_IN1" bidirectional line)
+					(alternate "TIM2_CH2" bidirectional line)
+					(alternate "USART2_RTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN2" bidirectional line)
+					(alternate "ADC2_IN2" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART2_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN3" bidirectional line)
+					(alternate "ADC2_IN3" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART2_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN4" bidirectional line)
+					(alternate "ADC2_IN4" bidirectional line)
+					(alternate "SPI1_NSS" bidirectional line)
+					(alternate "USART2_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN5" bidirectional line)
+					(alternate "ADC2_IN5" bidirectional line)
+					(alternate "SPI1_SCK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN6" bidirectional line)
+					(alternate "ADC2_IN6" bidirectional line)
+					(alternate "SPI1_MISO" bidirectional line)
+					(alternate "TIM1_BKIN" bidirectional line)
+					(alternate "TIM3_CH1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN7" bidirectional line)
+					(alternate "ADC2_IN7" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "TIM1_CH1N" bidirectional line)
+					(alternate "TIM3_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN8" bidirectional line)
+					(alternate "ADC2_IN8" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
+					(alternate "TIM3_CH3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_IN9" bidirectional line)
+					(alternate "ADC2_IN9" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
+					(alternate "TIM3_CH4" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C2_SCL" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART3_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "I2C2_SDA" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART3_RX" bidirectional line)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C2_SMBA" bidirectional line)
+					(alternate "SPI2_NSS" bidirectional line)
+					(alternate "TIM1_BKIN" bidirectional line)
+					(alternate "USART3_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI2_SCK" bidirectional line)
+					(alternate "TIM1_CH1N" bidirectional line)
+					(alternate "USART3_CTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -30.48 0)
+					(length 2.54)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI2_MISO" bidirectional line)
+					(alternate "TIM1_CH2N" bidirectional line)
+					(alternate "USART3_RTS" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "SPI2_MOSI" bidirectional line)
+					(alternate "TIM1_CH3N" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_MCO" bidirectional line)
+					(alternate "TIM1_CH1" bidirectional line)
+					(alternate "USART1_CK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TIM1_CH2" bidirectional line)
+					(alternate "USART1_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TIM1_CH3" bidirectional line)
+					(alternate "USART1_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "CAN_RX" bidirectional line)
+					(alternate "TIM1_CH4" bidirectional line)
+					(alternate "USART1_CTS" bidirectional line)
+					(alternate "USB_DM" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_TX" bidirectional line)
+					(alternate "TIM1_ETR" bidirectional line)
+					(alternate "USART1_RTS" bidirectional line)
+					(alternate "USB_DP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SYS_JTMS-SWDIO" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SYS_JTCK-SWCLK" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "SPI1_NSS" bidirectional line)
+					(alternate "SYS_JTDI" bidirectional line)
+					(alternate "TIM2_CH1" bidirectional line)
+					(alternate "TIM2_ETR" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI1_SCK" bidirectional line)
+					(alternate "SYS_JTDO-TRACESWO" bidirectional line)
+					(alternate "TIM2_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPI1_MISO" bidirectional line)
+					(alternate "SYS_NJTRST" bidirectional line)
+					(alternate "TIM3_CH1" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SMBA" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "TIM3_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional line)
+					(alternate "TIM4_CH1" bidirectional line)
+					(alternate "USART1_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "TIM4_CH2" bidirectional line)
+					(alternate "USART1_RX" bidirectional line)
+				)
+				(pin input line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_RX" bidirectional line)
+					(alternate "I2C1_SCL" bidirectional line)
+					(alternate "TIM4_CH3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CAN_TX" bidirectional line)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "TIM4_CH4" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2909,6 +4135,170 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3435,10 +4825,112 @@
 		(uuid "013f75f4-a96b-4ac7-bcbb-0df95b9912c5")
 	)
 	(junction
+		(at 245.11 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "039e458f-6c47-4730-b3d0-053da5a0b58f")
+	)
+	(junction
+		(at 245.11 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "059892d1-406c-4457-938b-613e60215659")
+	)
+	(junction
+		(at 208.28 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05a09810-49c6-4b8c-bc69-38b7ac217d0d")
+	)
+	(junction
+		(at 45.72 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b7d9a1-db9a-442b-a331-b348fe97d057")
+	)
+	(junction
+		(at 97.79 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e4b65b-8977-4b63-b4a7-6b6cf63f4f76")
+	)
+	(junction
+		(at 156.21 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a25cc11-aecf-4b75-8c13-e089f3c2e87e")
+	)
+	(junction
+		(at 128.27 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce009d9-9718-4e2e-81dc-8ce0a97da62a")
+	)
+	(junction
+		(at 264.16 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e608564-ba1d-402a-b6cb-22e6ecb76f32")
+	)
+	(junction
+		(at 306.07 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c6cad4-36d7-45df-8311-cf815647116f")
+	)
+	(junction
+		(at 35.56 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15f52ad3-36c1-475b-a050-a9507602d77f")
+	)
+	(junction
+		(at 306.07 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161e5427-6411-42ae-a469-f329e903cf1a")
+	)
+	(junction
+		(at 233.68 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c71ed90-4be4-42cf-a703-a803fc12d851")
+	)
+	(junction
 		(at 57.15 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eba6cc6-7fa6-4586-aab3-cb35b53180d7")
+	)
+	(junction
+		(at 181.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f87c976-586c-4345-8391-7108dcaa2faa")
+	)
+	(junction
+		(at 170.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ccd3ff-afee-4057-b8f0-714325bf62c4")
+	)
+	(junction
+		(at 68.58 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c354a5-a628-4472-b82c-9053192a9e6c")
+	)
+	(junction
+		(at 80.01 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "255b2183-e13d-4cf4-b55d-66b29dd940ae")
+	)
+	(junction
+		(at 181.61 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "274fc7c2-e25c-4bd0-841f-4ebee7c2b2a9")
 	)
 	(junction
 		(at 27.94 53.34)
@@ -3447,10 +4939,22 @@
 		(uuid "2e9e5557-b439-4873-a147-8bd4a556acb4")
 	)
 	(junction
+		(at 62.23 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee88488-0e8b-46ce-837c-f4bbb5bf2780")
+	)
+	(junction
 		(at 58.42 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f62f23f-17e1-4c9c-afd2-728a208bcf5c")
+	)
+	(junction
+		(at 77.47 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30b19de2-15f8-4aef-9d22-1d71db240271")
 	)
 	(junction
 		(at 27.94 21.59)
@@ -3459,16 +4963,70 @@
 		(uuid "35570d60-7f5b-4484-b73e-7688bab4c208")
 	)
 	(junction
+		(at 104.14 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35fd545a-2b7a-4e20-b41b-cceaf81aa8ab")
+	)
+	(junction
+		(at 306.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "375177ce-7104-4af2-bd29-f4d3736c2338")
+	)
+	(junction
+		(at 285.75 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "389bd76e-eb6e-4402-b242-1ee2bd8cd7a9")
+	)
+	(junction
+		(at 255.27 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39525d67-4660-40bc-93d4-1704d8ab49ad")
+	)
+	(junction
+		(at 45.72 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3d0409-dae1-4bbd-98d8-276cac5b3883")
+	)
+	(junction
+		(at 55.88 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7e4a12-48d2-4070-9c2b-25d27d7e3f98")
+	)
+	(junction
 		(at 147.32 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fcd52e3-0c59-4fa6-8fb6-332c076907f1")
 	)
 	(junction
+		(at 234.95 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480d37d1-0ce1-44b8-863e-15e295b12671")
+	)
+	(junction
 		(at 127 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8e007d-59d1-4d15-b405-d1b6e50f7059")
+	)
+	(junction
+		(at 170.18 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fece73e-2ab6-4004-a0bd-8e2e6bf41aa5")
+	)
+	(junction
+		(at 275.59 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50465f27-1669-4b2a-84c6-82e857276ce0")
 	)
 	(junction
 		(at 151.13 33.02)
@@ -3481,6 +5039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "539f8d1d-1534-4c26-adf5-842a92adf608")
+	)
+	(junction
+		(at 254 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55004534-1b8c-44db-bd54-a387f87570ee")
 	)
 	(junction
 		(at 119.38 30.48)
@@ -3507,10 +5071,46 @@
 		(uuid "5f0573a6-aee7-4ad7-857a-062c57a34a75")
 	)
 	(junction
+		(at 265.43 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0e2616-a5f0-4001-9043-ddf7919513a4")
+	)
+	(junction
+		(at 104.14 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa2490b-d8f1-4a8e-a607-f7331165d1fd")
+	)
+	(junction
+		(at 233.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a4cce1-913b-454b-b744-412ca86633d8")
+	)
+	(junction
+		(at 81.28 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b64b2e-ce32-4856-8ab7-31e4d12f1156")
+	)
+	(junction
+		(at 208.28 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670a8a52-a0ea-4976-bdb6-6554309ad9c0")
+	)
+	(junction
 		(at 31.75 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "685952e5-ec5d-421b-89df-d3e6cff55fad")
+	)
+	(junction
+		(at 285.75 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7d986f-7030-40a4-9c4c-9fce4cf5c0f1")
 	)
 	(junction
 		(at 62.23 124.46)
@@ -3519,10 +5119,28 @@
 		(uuid "6a98e94d-b093-4724-b9a7-28711eea7ee3")
 	)
 	(junction
+		(at 234.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b12bbf3-902a-409f-98d9-fc7d672e9f86")
+	)
+	(junction
 		(at 88.9 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9d3430-d7d0-4245-bfec-496526ed2d01")
+	)
+	(junction
+		(at 45.72 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74901e20-f637-4312-a80c-f72c33d24ee0")
+	)
+	(junction
+		(at 97.79 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "759c0ccf-4a2e-438c-aa5f-caf33394486b")
 	)
 	(junction
 		(at 68.58 35.56)
@@ -3531,10 +5149,40 @@
 		(uuid "79dc8445-f8ee-4820-a45f-d8c9d6428f3a")
 	)
 	(junction
+		(at 245.11 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c467cec-1652-498c-8282-4db21dc28713")
+	)
+	(junction
+		(at 80.01 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c87e6e5-7a10-4b91-b5a3-143c35e70506")
+	)
+	(junction
+		(at 274.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e2c7546-c43c-42f2-96d3-c453820e70f0")
+	)
+	(junction
+		(at 245.11 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "810c8e05-c386-47f4-b817-14492e727611")
+	)
+	(junction
 		(at 44.45 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86447586-ebfe-438c-b343-09b6c4fa61bd")
+	)
+	(junction
+		(at 265.43 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "867d51f1-5d21-4154-b455-cf534dc8e66c")
 	)
 	(junction
 		(at 68.58 53.34)
@@ -3549,6 +5197,12 @@
 		(uuid "87888c5e-663f-40d3-970b-4fa0e8d9a6c3")
 	)
 	(junction
+		(at 68.58 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b47978-75ed-45db-8b0b-3a390d159ab4")
+	)
+	(junction
 		(at 31.75 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3559,6 +5213,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f4f9ab4-11d5-42ae-8088-b99627927cd8")
+	)
+	(junction
+		(at 148.59 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919cfec0-9414-4a6c-b01a-5cb367511d91")
 	)
 	(junction
 		(at 151.13 46.99)
@@ -3573,16 +5233,64 @@
 		(uuid "9928c866-d1c4-46e6-a3ec-4a6288982de3")
 	)
 	(junction
+		(at 274.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d454945-d95f-42ac-a8ee-d7402020b244")
+	)
+	(junction
 		(at 105.41 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d91c5b4-0ed7-40c5-baf1-4e5ef4124edb")
 	)
 	(junction
+		(at 274.32 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c9b79e-a814-4c6b-8980-20c36fe525dd")
+	)
+	(junction
+		(at 275.59 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0f5ad78-9fe6-4a05-ac08-ac0571f7d5b1")
+	)
+	(junction
+		(at 285.75 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a224cddf-dfa2-4520-9335-c3f06bf8645c")
+	)
+	(junction
+		(at 45.72 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24036f2-56f8-4fb4-8a66-eb25eaa7f3fa")
+	)
+	(junction
+		(at 275.59 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a268239a-e78f-42ef-84c0-8c46d30e3a43")
+	)
+	(junction
+		(at 234.95 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a411ed77-ac7a-42ac-9986-216417fee0d8")
+	)
+	(junction
 		(at 127 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94389d7-91c2-4382-b7ee-ef8a76cf38e0")
+	)
+	(junction
+		(at 55.88 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9796d52-7857-4f04-acf0-f00ee7b68f7a")
 	)
 	(junction
 		(at 31.75 53.34)
@@ -3595,6 +5303,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af956561-be75-4bbb-9011-e5c1bd40c4f2")
+	)
+	(junction
+		(at 285.75 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5016cc5-ebcb-4d46-a044-10dadcbbb113")
+	)
+	(junction
+		(at 306.07 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b86891dc-e4c0-42ec-8678-35b73625ef44")
+	)
+	(junction
+		(at 255.27 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba03323c-d64c-4307-8a70-70bece472a55")
+	)
+	(junction
+		(at 264.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2fcce2-94b7-4533-89ef-019b8eccd4c9")
+	)
+	(junction
+		(at 285.75 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf76195-3de2-4b99-a0c5-640a2f7d2546")
 	)
 	(junction
 		(at 85.09 35.56)
@@ -3615,16 +5353,88 @@
 		(uuid "c397c420-786e-41f5-b3d0-4429f9452a2a")
 	)
 	(junction
+		(at 210.82 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41548ef-6edd-44b9-8f8f-e2b27abfe5c4")
+	)
+	(junction
+		(at 254 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9109e82-163e-4edd-a088-7b959bfab7f6")
+	)
+	(junction
+		(at 245.11 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc14c976-7e0b-4320-914e-f71a226fea8f")
+	)
+	(junction
+		(at 64.77 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb473c3-df6f-42ea-95a0-8b14f4c33712")
+	)
+	(junction
+		(at 265.43 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf770aea-c5ca-44c0-82f5-cfafcea0a046")
+	)
+	(junction
+		(at 100.33 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79f5c69-9dc4-40d5-b8ff-0e7e03f9e047")
+	)
+	(junction
+		(at 45.72 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8d7b40e-d8b7-426b-80a0-f7f954ab86ae")
+	)
+	(junction
+		(at 254 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db22847b-38c0-4a65-a44f-21ff2624db50")
+	)
+	(junction
+		(at 233.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcbea38c-c554-4c79-b13a-22c7edffa9bd")
+	)
+	(junction
+		(at 156.21 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd585fb-e212-4ad1-8acf-577c114dd233")
+	)
+	(junction
 		(at 68.58 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddea8efd-9b42-4898-b65e-711fa119736e")
 	)
 	(junction
-		(at 148.59 100.33)
+		(at 205.74 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6971e7a-3aed-4811-a79c-179cd8f7b657")
+		(uuid "df88a2b2-aaec-4b66-a6c0-0d72f03e5b3e")
+	)
+	(junction
+		(at 96.52 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fb7f33-3a6e-4110-af02-6230e9c798ec")
+	)
+	(junction
+		(at 128.27 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9d84429-fa18-426f-ac8d-b329b4a78f33")
 	)
 	(junction
 		(at 74.93 158.75)
@@ -3643,6 +5453,72 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee9b804b-1677-4123-9e7e-986e1a350ebb")
+	)
+	(junction
+		(at 306.07 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03ff8c4-195b-48ec-9423-5dcabfd25681")
+	)
+	(junction
+		(at 255.27 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3db6479-fb83-4262-9537-7fbe5afda8b5")
+	)
+	(no_connect
+		(at 105.41 137.16)
+		(uuid "f387f170-7c01-4127-aa74-5bcf2140c400")
+	)
+	(wire
+		(pts
+			(xy 97.79 173.99) (xy 100.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010f8ada-e902-4600-ad08-5894d74e3975")
+	)
+	(wire
+		(pts
+			(xy 254 62.23) (xy 274.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0339ce95-f15c-4451-b969-51d8cda23607")
+	)
+	(wire
+		(pts
+			(xy 274.32 57.15) (xy 274.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04570f1b-d57f-46da-b6ab-e909e721d3fc")
+	)
+	(wire
+		(pts
+			(xy 208.28 152.4) (xy 208.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0486fa8a-88e2-43d4-945d-245e44932739")
+	)
+	(wire
+		(pts
+			(xy 81.28 190.5) (xy 87.63 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04df102f-a104-4497-b25e-e67f4b218d3f")
 	)
 	(wire
 		(pts
@@ -3676,13 +5552,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 161.29 124.46)
+			(xy 147.32 124.46) (xy 156.21 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06982c83-9216-4c55-8720-fdc881dcbfa9")
+	)
+	(wire
+		(pts
+			(xy 245.11 106.68) (xy 245.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069b4a4f-6721-4c96-8fe7-663f06ccef7c")
+	)
+	(wire
+		(pts
+			(xy 304.8 57.15) (xy 306.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0757f7b1-8ea0-45ca-a48a-1f4f8271e447")
 	)
 	(wire
 		(pts
@@ -3696,6 +5592,36 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 212.09) (xy 55.88 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cb4408-3b24-46f9-a541-92b38f9366af")
+	)
+	(wire
+		(pts
+			(xy 254 25.4) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba6d49b-f230-4f89-869b-d7f5cfbfe043")
+	)
+	(wire
+		(pts
+			(xy 35.56 173.99) (xy 35.56 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0cd979-afb9-4b0a-b974-9212db841bea")
+	)
+	(wire
+		(pts
 			(xy 135.89 46.99) (xy 127 46.99)
 		)
 		(stroke
@@ -3706,6 +5632,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 200.66) (xy 81.28 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c70d478-4b19-425e-bba3-4418d87c6397")
+	)
+	(wire
+		(pts
+			(xy 294.64 57.15) (xy 294.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd2060c-cb4e-44ab-afc9-724047a272b9")
+	)
+	(wire
+		(pts
 			(xy 74.93 158.75) (xy 74.93 161.29)
 		)
 		(stroke
@@ -3713,6 +5659,66 @@
 			(type default)
 		)
 		(uuid "0d68f778-11d5-4a07-a3d6-adf9149c2484")
+	)
+	(wire
+		(pts
+			(xy 73.66 260.35) (xy 77.47 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d924cd9-0a90-469c-974c-0ca657c159bb")
+	)
+	(wire
+		(pts
+			(xy 254 30.48) (xy 274.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10138848-e63a-481d-8208-9409aa1161b0")
+	)
+	(wire
+		(pts
+			(xy 306.07 106.68) (xy 306.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ef8779-5098-443b-9511-b18a2c171492")
+	)
+	(wire
+		(pts
+			(xy 55.88 214.63) (xy 64.77 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f942e1-004e-4e08-a2d2-4ac6b680079d")
+	)
+	(wire
+		(pts
+			(xy 96.52 242.57) (xy 96.52 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11209026-cfae-4fe9-9ac2-deb8bc4001b0")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 234.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120e84a8-5850-4d4c-bc3b-5563c85079bc")
 	)
 	(wire
 		(pts
@@ -3736,6 +5742,66 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 260.35) (xy 62.23 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140836ed-1e54-4c1c-a15d-4a2d59408057")
+	)
+	(wire
+		(pts
+			(xy 234.95 78.74) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b5978a-7549-4a49-ad63-43493f654436")
+	)
+	(wire
+		(pts
+			(xy 243.84 40.64) (xy 245.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14dbeb25-ccaa-430c-b903-239c07552087")
+	)
+	(wire
+		(pts
+			(xy 34.29 257.81) (xy 34.29 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156c9459-5e23-451d-aedf-1792912da4d6")
+	)
+	(wire
+		(pts
+			(xy 119.38 200.66) (xy 113.03 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b3d61e-c852-4b1a-99b0-82f1d7f0f762")
+	)
+	(wire
+		(pts
+			(xy 154.94 193.04) (xy 154.94 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f99e41-2074-42d6-b60c-de74b37c06bf")
+	)
+	(wire
+		(pts
 			(xy 77.47 91.44) (xy 77.47 93.98)
 		)
 		(stroke
@@ -3746,6 +5812,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 40.64) (xy 285.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196cde0c-5783-40b5-8141-22ae10bccf4c")
+	)
+	(wire
+		(pts
 			(xy 17.78 53.34) (xy 27.94 53.34)
 		)
 		(stroke
@@ -3753,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "19f0efab-d050-4971-8bf9-0ef301884bc3")
+	)
+	(wire
+		(pts
+			(xy 284.48 25.4) (xy 285.75 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1ff61d-cd7f-4db5-8557-092c05a8f924")
 	)
 	(wire
 		(pts
@@ -3796,13 +5882,53 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 161.29 124.46)
+			(xy 64.77 214.63) (xy 68.58 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "246dec0a-dc4f-4db8-a22d-1bd679bb62bb")
+		(uuid "212a980c-f617-4740-8683-2a9a1244d24a")
+	)
+	(wire
+		(pts
+			(xy 274.32 45.72) (xy 294.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e15c7d-95a9-4cdc-acc7-45fe9b64034b")
+	)
+	(wire
+		(pts
+			(xy 275.59 78.74) (xy 295.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e98ea4-7ece-4bf5-b5fc-7092cd271546")
+	)
+	(wire
+		(pts
+			(xy 181.61 124.46) (xy 184.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240c61da-f6c1-4a25-a116-9d0ea37c9d53")
+	)
+	(wire
+		(pts
+			(xy 275.59 73.66) (xy 275.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24908587-3e7f-44ff-a35b-805414caf154")
 	)
 	(wire
 		(pts
@@ -3813,6 +5939,16 @@
 			(type default)
 		)
 		(uuid "2614565f-e9b2-432d-bf88-dc544274bd37")
+	)
+	(wire
+		(pts
+			(xy 265.43 73.66) (xy 265.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2670918c-5b30-4144-bf36-af4bd652ce5f")
 	)
 	(wire
 		(pts
@@ -3836,6 +5972,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 95.25) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8d43b7-ba06-462d-8724-dae3ffa75747")
+	)
+	(wire
+		(pts
 			(xy 57.15 21.59) (xy 57.15 40.64)
 		)
 		(stroke
@@ -3843,6 +5989,36 @@
 			(type default)
 		)
 		(uuid "2d335ec8-6509-4a5b-96f6-b0b91c1a381c")
+	)
+	(wire
+		(pts
+			(xy 62.23 195.58) (xy 72.39 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db3222b-b466-45d7-8c44-852e63732280")
+	)
+	(wire
+		(pts
+			(xy 181.61 115.57) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efe4ac5-5320-4897-9117-e113337787bb")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f77e90e-9c63-4a91-9aff-f52e64f1db4d")
 	)
 	(wire
 		(pts
@@ -3866,6 +6042,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 170.18) (xy 100.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a8793e-5961-4cf8-8373-90b0d1a98205")
+	)
+	(wire
+		(pts
+			(xy 208.28 242.57) (xy 210.82 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fa9b2d-b47d-4620-99ff-1509ed606da4")
+	)
+	(wire
+		(pts
 			(xy 68.58 21.59) (xy 119.38 21.59)
 		)
 		(stroke
@@ -3883,6 +6079,16 @@
 			(type default)
 		)
 		(uuid "34c4f871-1c1b-4102-b8a3-19a6737a380e")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 254 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d45d96-117c-4a94-94ce-9bea3fd3e94a")
 	)
 	(wire
 		(pts
@@ -3916,6 +6122,76 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 90.17) (xy 265.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376fd67c-c590-4821-a02b-4f04125a6841")
+	)
+	(wire
+		(pts
+			(xy 118.11 190.5) (xy 113.03 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390040a5-96bd-450a-81c5-20c73a0f8da9")
+	)
+	(wire
+		(pts
+			(xy 245.11 90.17) (xy 245.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39478eea-b73b-4aa1-960c-01aae4dbfd8b")
+	)
+	(wire
+		(pts
+			(xy 45.72 228.6) (xy 45.72 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398f152d-f332-45ca-9010-c4e4c2979bf6")
+	)
+	(wire
+		(pts
+			(xy 304.8 25.4) (xy 306.07 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2e5a0b-dbff-4c21-876f-ba293e5e2e59")
+	)
+	(wire
+		(pts
+			(xy 96.52 242.57) (xy 107.95 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b211861-ed03-4e14-ad2c-d1e3766720e3")
+	)
+	(wire
+		(pts
+			(xy 80.01 204.47) (xy 80.01 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca00207-fa1c-4655-be68-e1d7a854f892")
+	)
+	(wire
+		(pts
 			(xy 31.75 124.46) (xy 62.23 124.46)
 		)
 		(stroke
@@ -3946,6 +6222,76 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 233.68) (xy 208.28 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411fa6a5-fe64-46b1-8c75-a17b7e79de13")
+	)
+	(wire
+		(pts
+			(xy 274.32 30.48) (xy 294.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4154a973-be55-4a35-a1b6-02ad5d730191")
+	)
+	(wire
+		(pts
+			(xy 295.91 90.17) (xy 295.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4172f650-c4d5-4ace-a4d0-5c5e2286af24")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f91410-1cd2-499d-aa42-356763a4430a")
+	)
+	(wire
+		(pts
+			(xy 77.47 260.35) (xy 77.47 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435a30f0-3b86-41ac-8f25-bc11e30b9225")
+	)
+	(wire
+		(pts
+			(xy 285.75 25.4) (xy 285.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ea3ca5-0c5c-4013-ac68-6535ca91b8b3")
+	)
+	(wire
+		(pts
+			(xy 255.27 90.17) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4525780b-4b99-4053-8ca5-47e5efbd10ab")
+	)
+	(wire
+		(pts
 			(xy 68.58 22.86) (xy 68.58 21.59)
 		)
 		(stroke
@@ -3966,6 +6312,56 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 95.25) (xy 295.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e74773-63ef-458f-85a9-6568203818b7")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 213.36 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490c71f9-57b7-4704-8bb5-2077b9743b77")
+	)
+	(wire
+		(pts
+			(xy 255.27 111.76) (xy 275.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e4efe4-17ef-4a4c-a169-35c6669aedb1")
+	)
+	(wire
+		(pts
+			(xy 233.68 30.48) (xy 254 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc241e6-8846-4053-8ea7-06da2abf348c")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce612dc-6285-4e48-a75e-9ec1c37c767e")
+	)
+	(wire
+		(pts
 			(xy 68.58 35.56) (xy 85.09 35.56)
 		)
 		(stroke
@@ -3976,6 +6372,66 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 40.64) (xy 274.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5445bf-fbcb-4a18-bf71-c4799f8cbb69")
+	)
+	(wire
+		(pts
+			(xy 73.66 190.5) (xy 64.77 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8372bc-63dc-4a07-b775-2659734837ce")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db1ff4d-3b38-4a51-b9cc-3b011c074742")
+	)
+	(wire
+		(pts
+			(xy 245.11 73.66) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd079b2-bd9b-460d-82ca-4ebd7d796f0d")
+	)
+	(wire
+		(pts
+			(xy 45.72 204.47) (xy 45.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520f03ed-1389-4801-a108-50a41f2e9afa")
+	)
+	(wire
+		(pts
+			(xy 45.72 265.43) (xy 45.72 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53805a79-03e7-4666-aced-c61db396842a")
+	)
+	(wire
+		(pts
 			(xy 17.78 29.21) (xy 17.78 21.59)
 		)
 		(stroke
@@ -3983,6 +6439,16 @@
 			(type default)
 		)
 		(uuid "53c18d85-6b87-448b-8cba-f62f74d323dc")
+	)
+	(wire
+		(pts
+			(xy 97.79 173.99) (xy 35.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542f01c0-a659-4a95-add4-5f56a482efce")
 	)
 	(wire
 		(pts
@@ -4003,6 +6469,56 @@
 			(type default)
 		)
 		(uuid "551112c8-dc9f-436f-a9b8-61c8ed531335")
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551a80ff-5307-4b58-8ee7-a77b798cf877")
+	)
+	(wire
+		(pts
+			(xy 81.28 203.2) (xy 87.63 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5528355d-5958-4a99-a453-53c00913a811")
+	)
+	(wire
+		(pts
+			(xy 205.74 146.05) (xy 208.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55809459-e03e-46df-b1a6-615a66e848c2")
+	)
+	(wire
+		(pts
+			(xy 120.65 269.24) (xy 128.27 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a34e14-5b21-45ed-86d2-398c2798444a")
+	)
+	(wire
+		(pts
+			(xy 306.07 106.68) (xy 306.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3b476-c594-49e0-bca4-eb0649317467")
 	)
 	(wire
 		(pts
@@ -4036,6 +6552,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 146.05) (xy 205.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d604a74-5a71-4fd7-ac5f-5a1a6b0752c0")
+	)
+	(wire
+		(pts
 			(xy 85.09 35.56) (xy 88.9 35.56)
 		)
 		(stroke
@@ -4043,6 +6569,26 @@
 			(type default)
 		)
 		(uuid "5d68f150-6131-4cd6-ae41-fc3fb5da41ca")
+	)
+	(wire
+		(pts
+			(xy 220.98 62.23) (xy 233.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da994b9-cb4e-4196-bf59-a3284cc9aa3a")
+	)
+	(wire
+		(pts
+			(xy 306.07 25.4) (xy 306.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6014267f-b55e-4857-b3b2-f4390f7207bd")
 	)
 	(wire
 		(pts
@@ -4066,6 +6612,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 265.43) (xy 45.72 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621aaae2-7240-4906-8df9-e24eb3f54ae4")
+	)
+	(wire
+		(pts
 			(xy 127 57.15) (xy 127 46.99)
 		)
 		(stroke
@@ -4073,6 +6629,106 @@
 			(type default)
 		)
 		(uuid "6445f84c-21b3-4213-86f8-070fe08c647b")
+	)
+	(wire
+		(pts
+			(xy 265.43 106.68) (xy 265.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648722f1-5c21-47e3-90bc-e48edaac4d31")
+	)
+	(wire
+		(pts
+			(xy 45.72 200.66) (xy 55.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654b5c8b-5bdc-4e1a-a526-4bc8e97d35d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 269.24) (xy 104.14 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66da6974-3b4a-4b44-a6ef-27996aefa430")
+	)
+	(wire
+		(pts
+			(xy 128.27 269.24) (xy 128.27 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67777c81-abc9-486e-9da3-8391218e8dc9")
+	)
+	(wire
+		(pts
+			(xy 154.94 242.57) (xy 208.28 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a9030e-67bc-4206-9d5b-d98e35b054cd")
+	)
+	(wire
+		(pts
+			(xy 264.16 25.4) (xy 264.16 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682789c8-fade-42e9-9e14-2fea27fe1c78")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 181.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685b96f7-1ab5-4ecc-bffc-a5e9de29aa01")
+	)
+	(wire
+		(pts
+			(xy 118.11 187.96) (xy 113.03 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d1a452-79d8-4923-a3eb-4932f1847c3b")
+	)
+	(wire
+		(pts
+			(xy 184.15 193.04) (xy 190.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6935c9a8-c092-4dc7-b354-e6f1c0c6f691")
+	)
+	(wire
+		(pts
+			(xy 45.72 212.09) (xy 45.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6974eb98-321d-44dd-a311-2f6805c70d81")
 	)
 	(wire
 		(pts
@@ -4096,6 +6752,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 214.63) (xy 80.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b280b09-2771-4e05-9eb0-d650a1c4baea")
+	)
+	(wire
+		(pts
 			(xy 88.9 83.82) (xy 88.9 80.01)
 		)
 		(stroke
@@ -4116,6 +6782,36 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 90.17) (xy 306.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5da110-4a1d-4ab2-9968-2e94043176b9")
+	)
+	(wire
+		(pts
+			(xy 45.72 242.57) (xy 45.72 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e79a06b-28a3-4ed9-bece-27f72ee710e1")
+	)
+	(wire
+		(pts
+			(xy 254 40.64) (xy 254 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7042a712-adbd-403a-b413-0e286add0702")
+	)
+	(wire
+		(pts
 			(xy 46.99 156.21) (xy 46.99 158.75)
 		)
 		(stroke
@@ -4123,6 +6819,16 @@
 			(type default)
 		)
 		(uuid "705ccf9f-700b-4469-ba24-768059abc730")
+	)
+	(wire
+		(pts
+			(xy 35.56 204.47) (xy 35.56 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705d5f65-32f7-4ad3-867e-a722afd84184")
 	)
 	(wire
 		(pts
@@ -4136,6 +6842,66 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 25.4) (xy 294.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d88e80-b244-45c6-8b2a-55bfb9fc496e")
+	)
+	(wire
+		(pts
+			(xy 55.88 200.66) (xy 68.58 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7275f26f-980a-4b70-bdb6-248d70fbca80")
+	)
+	(wire
+		(pts
+			(xy 284.48 57.15) (xy 285.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da316e-80c4-4bf1-ba45-d40ef801911c")
+	)
+	(wire
+		(pts
+			(xy 34.29 233.68) (xy 45.72 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d7d1dd-1f89-4ae1-8200-6fd97dd8f631")
+	)
+	(wire
+		(pts
+			(xy 83.82 185.42) (xy 87.63 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74aa6e21-4cf1-45c3-8d8b-3b2afbb6af0d")
+	)
+	(wire
+		(pts
+			(xy 220.98 30.48) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c0b685-f413-495d-8f32-1bf85142a255")
+	)
+	(wire
+		(pts
 			(xy 31.75 21.59) (xy 44.45 21.59)
 		)
 		(stroke
@@ -4143,6 +6909,26 @@
 			(type default)
 		)
 		(uuid "74ce3c9c-41dd-4e89-ba8b-0b6d4dcd3bb3")
+	)
+	(wire
+		(pts
+			(xy 245.11 25.4) (xy 245.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751c4f57-dc3e-421a-9864-90619cabcc0f")
+	)
+	(wire
+		(pts
+			(xy 213.36 146.05) (xy 213.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756329e6-079c-42d8-8ee2-48ee63b9a7ec")
 	)
 	(wire
 		(pts
@@ -4166,6 +6952,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 95.25) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5503c4-a550-45a5-bc11-25031aa38231")
+	)
+	(wire
+		(pts
+			(xy 245.11 40.64) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad676d1-fc66-40e2-9d33-63f96dadb9e6")
+	)
+	(wire
+		(pts
 			(xy 74.93 153.67) (xy 74.93 158.75)
 		)
 		(stroke
@@ -4173,6 +6979,16 @@
 			(type default)
 		)
 		(uuid "7be479b6-f7b9-402f-9011-4c75c5a6911b")
+	)
+	(wire
+		(pts
+			(xy 295.91 73.66) (xy 295.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3d73fc-53b0-4a7f-b341-68ef8bb28241")
 	)
 	(wire
 		(pts
@@ -4186,13 +7002,143 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 161.29 100.33)
+			(xy 233.68 25.4) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4d2de6-0e07-4691-881c-6f432f81f24d")
+	)
+	(wire
+		(pts
+			(xy 100.33 214.63) (xy 97.79 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5eaaf4-9070-4d6e-a6eb-701f07514617")
+	)
+	(wire
+		(pts
+			(xy 77.47 247.65) (xy 81.28 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80388db9-c7df-443d-9702-2899dd3219bf")
+	)
+	(wire
+		(pts
+			(xy 128.27 245.11) (xy 123.19 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8149acb0-3ae8-400f-8736-433697cf73f0")
+	)
+	(wire
+		(pts
+			(xy 306.07 57.15) (xy 306.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822e54f9-a73d-4775-b959-5e90ebaec1f6")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 208.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833f713c-e386-4205-adf4-600b47c3df8d")
+	)
+	(wire
+		(pts
+			(xy 306.07 73.66) (xy 306.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859e5a8c-053e-44b9-9d62-343b3b27f482")
+	)
+	(wire
+		(pts
+			(xy 44.45 195.58) (xy 54.61 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85daebc1-e572-422d-89a7-d47589d54edd")
+	)
+	(wire
+		(pts
+			(xy 148.59 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8621f17b-6b8b-45d7-8aa8-f105de5b34dc")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 181.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86bc737c-8070-4b8a-9be3-bdc21bca0517")
+	)
+	(wire
+		(pts
+			(xy 234.95 73.66) (xy 234.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8792b640-f601-492c-8fe2-9706005e6a59")
+	)
+	(wire
+		(pts
+			(xy 233.68 40.64) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e0d9ff-92d7-491b-b18f-e792f2169e83")
+	)
+	(wire
+		(pts
+			(xy 62.23 185.42) (xy 76.2 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a171f1-94b7-4472-948a-3f8f09949fe5")
+	)
+	(wire
+		(pts
+			(xy 223.52 111.76) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af13aeb-ec55-4f45-a60f-c6966b185055")
 	)
 	(wire
 		(pts
@@ -4203,6 +7149,16 @@
 			(type default)
 		)
 		(uuid "8b1e70f2-a34f-4417-94c1-3c9403441362")
+	)
+	(wire
+		(pts
+			(xy 68.58 204.47) (xy 68.58 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8f75fe-5e1d-40e3-84c8-6e2f7078060e")
 	)
 	(wire
 		(pts
@@ -4226,6 +7182,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 247.65) (xy 107.95 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff8b6ca-082e-4f3d-ba22-9a6fef587dca")
+	)
+	(wire
+		(pts
 			(xy 46.99 80.01) (xy 52.07 80.01)
 		)
 		(stroke
@@ -4233,6 +7199,46 @@
 			(type default)
 		)
 		(uuid "90437aa6-76ca-4743-aa16-6b62fc5c6c73")
+	)
+	(wire
+		(pts
+			(xy 113.03 259.08) (xy 104.14 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f8e536-52f9-4d29-a737-3cd43e3bf8cf")
+	)
+	(wire
+		(pts
+			(xy 100.33 180.34) (xy 100.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917834af-fa0b-4d99-b1ec-6aa3deb3ff36")
+	)
+	(wire
+		(pts
+			(xy 113.03 269.24) (xy 104.14 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f0096d-ecc3-4b27-906d-886088046bc6")
+	)
+	(wire
+		(pts
+			(xy 104.14 259.08) (xy 104.14 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9331999a-4940-47c5-9808-122a90e420d6")
 	)
 	(wire
 		(pts
@@ -4246,6 +7252,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94015bf2-6e15-4049-9388-ca6f535d91c5")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 130.81 35.56)
 		)
 		(stroke
@@ -4253,6 +7269,16 @@
 			(type default)
 		)
 		(uuid "96170122-e97e-46fb-a17b-c2045bf3dc5a")
+	)
+	(wire
+		(pts
+			(xy 66.04 260.35) (xy 62.23 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e79df7-7139-4436-bb78-1a208e43ad38")
 	)
 	(wire
 		(pts
@@ -4286,6 +7312,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 40.64) (xy 304.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de29324-68ff-4a11-9c6a-a09ec81be63a")
+	)
+	(wire
+		(pts
 			(xy 119.38 53.34) (xy 68.58 53.34)
 		)
 		(stroke
@@ -4303,6 +7339,56 @@
 			(type default)
 		)
 		(uuid "9f55a7d1-5096-4f8f-afbb-57b55a9c4c99")
+	)
+	(wire
+		(pts
+			(xy 55.88 204.47) (xy 55.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe19911-937d-4b18-ac70-f7fe465cfe83")
+	)
+	(wire
+		(pts
+			(xy 255.27 95.25) (xy 275.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1610e61-5fb4-43f9-889b-a8701c0bc1a9")
+	)
+	(wire
+		(pts
+			(xy 265.43 106.68) (xy 265.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61720c2-c50d-400a-b738-69e76e30fd5a")
+	)
+	(wire
+		(pts
+			(xy 45.72 233.68) (xy 96.52 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d031a9-a2a3-412e-bc87-ae01d4ca9d69")
+	)
+	(wire
+		(pts
+			(xy 88.9 247.65) (xy 104.14 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75b3abd-83e5-49bc-a8e7-a01cc4ee6b2d")
 	)
 	(wire
 		(pts
@@ -4326,6 +7412,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 212.09) (xy 68.58 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a800fa08-973b-4318-b60f-e5c6be8d71b2")
+	)
+	(wire
+		(pts
 			(xy 97.79 146.05) (xy 97.79 147.32)
 		)
 		(stroke
@@ -4336,6 +7432,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 57.15) (xy 264.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94f7485-b40f-42ed-8787-e9bf287dda4c")
+	)
+	(wire
+		(pts
 			(xy 127 100.33) (xy 148.59 100.33)
 		)
 		(stroke
@@ -4343,6 +7449,16 @@
 			(type default)
 		)
 		(uuid "a9dd624c-909e-4124-b10e-7d64edac0593")
+	)
+	(wire
+		(pts
+			(xy 208.28 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9defaac-31ea-4e21-9aef-850a7dd71820")
 	)
 	(wire
 		(pts
@@ -4376,6 +7492,36 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 242.57) (xy 210.82 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8b33e6-7dd7-41d3-9f49-b59e4ea4b57b")
+	)
+	(wire
+		(pts
+			(xy 264.16 40.64) (xy 264.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ce8f8e-c106-4f1d-9c64-ad68aaacb7f8")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1310bf3-ea65-44df-a05d-f408357661f0")
+	)
+	(wire
+		(pts
 			(xy 27.94 53.34) (xy 27.94 55.88)
 		)
 		(stroke
@@ -4383,6 +7529,16 @@
 			(type default)
 		)
 		(uuid "b1abb289-497e-4105-9e37-b275f02c2413")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 54.61 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ba66fc-c0a4-4f21-9685-5500ce8c63eb")
 	)
 	(wire
 		(pts
@@ -4396,6 +7552,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 214.63) (xy 97.79 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3dfbf94-9b34-493a-9b59-6a6cf3443632")
+	)
+	(wire
+		(pts
 			(xy 130.81 124.46) (xy 147.32 124.46)
 		)
 		(stroke
@@ -4403,6 +7569,36 @@
 			(type default)
 		)
 		(uuid "b4777ce6-e301-4f0d-9ba8-f278edbb7d2d")
+	)
+	(wire
+		(pts
+			(xy 64.77 190.5) (xy 64.77 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51d0202-3517-49b1-b729-d1f2cdcafee9")
+	)
+	(wire
+		(pts
+			(xy 220.98 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b3f705-b258-4754-8233-23e50f17a701")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b664eb4d-3170-4c49-804b-d34806b1da9e")
 	)
 	(wire
 		(pts
@@ -4416,6 +7612,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 115.57) (xy 156.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b977003c-821b-442a-a5d0-c68c38ef6090")
+	)
+	(wire
+		(pts
 			(xy 97.79 146.05) (xy 97.79 143.51)
 		)
 		(stroke
@@ -4423,6 +7629,16 @@
 			(type default)
 		)
 		(uuid "b997845d-d004-4619-8041-97b5c454d67f")
+	)
+	(wire
+		(pts
+			(xy 285.75 106.68) (xy 285.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab9ee08-4bd0-4960-ad30-992a68410d22")
 	)
 	(wire
 		(pts
@@ -4436,6 +7652,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 233.68) (xy 34.29 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7c6a76-fc4e-4b17-ba6c-49523fadf15f")
+	)
+	(wire
+		(pts
+			(xy 68.58 200.66) (xy 80.01 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccfb040-119f-4606-b0f8-ce8f76210268")
+	)
+	(wire
+		(pts
 			(xy 148.59 100.33) (xy 148.59 77.47)
 		)
 		(stroke
@@ -4443,6 +7679,76 @@
 			(type default)
 		)
 		(uuid "bcdd8c58-5346-480f-9ade-be08c039cf64")
+	)
+	(wire
+		(pts
+			(xy 119.38 203.2) (xy 113.03 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda0e8a1-4743-4d6a-a6c1-db42b4472b77")
+	)
+	(wire
+		(pts
+			(xy 245.11 106.68) (xy 245.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfa4726-0505-4886-9426-260d7943e52f")
+	)
+	(wire
+		(pts
+			(xy 87.63 200.66) (xy 81.28 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be694600-911f-4471-af8a-43212e4fbbf9")
+	)
+	(wire
+		(pts
+			(xy 243.84 25.4) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed2c20f-e996-4d62-be77-6e115d3df369")
+	)
+	(wire
+		(pts
+			(xy 68.58 214.63) (xy 68.58 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beee3e29-2122-4260-9fb1-16b29c11eb57")
+	)
+	(wire
+		(pts
+			(xy 243.84 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf558b10-dac6-4f8a-a57e-0178b2a9af67")
+	)
+	(wire
+		(pts
+			(xy 62.23 247.65) (xy 66.04 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff6b91f-305a-4dbb-8576-6173c2fe8c0c")
 	)
 	(wire
 		(pts
@@ -4456,6 +7762,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 210.82) (xy 100.33 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f60f88-5c2b-4f1e-a390-ab245d850702")
+	)
+	(wire
+		(pts
 			(xy 86.36 146.05) (xy 97.79 146.05)
 		)
 		(stroke
@@ -4463,6 +7779,36 @@
 			(type default)
 		)
 		(uuid "c37d3e22-0f9d-4808-96e8-1808ab2bb105")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40ff724-34ea-4c90-acb6-f469ff275165")
+	)
+	(wire
+		(pts
+			(xy 128.27 259.08) (xy 128.27 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48f3df0-85a4-4466-a88f-9d3bc07652e9")
+	)
+	(wire
+		(pts
+			(xy 120.65 259.08) (xy 128.27 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dd90e7-0db0-4953-b347-f0c68bd6f729")
 	)
 	(wire
 		(pts
@@ -4476,6 +7822,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 212.09) (xy 80.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c671468b-797a-440d-89c1-fbe5c937e630")
+	)
+	(wire
+		(pts
 			(xy 106.68 100.33) (xy 101.6 100.33)
 		)
 		(stroke
@@ -4483,6 +7839,26 @@
 			(type default)
 		)
 		(uuid "c7a2df1e-e2ce-4338-aca8-43cbe0cf4d19")
+	)
+	(wire
+		(pts
+			(xy 274.32 25.4) (xy 274.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2b6656-fc5a-42ee-873e-f6cc233000ea")
+	)
+	(wire
+		(pts
+			(xy 35.56 212.09) (xy 35.56 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdfa33e-13f6-4679-bbc9-1fad0f36b960")
 	)
 	(wire
 		(pts
@@ -4516,6 +7892,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 124.46) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1131831-10a4-4550-86f8-860fd5ea2a64")
+	)
+	(wire
+		(pts
+			(xy 255.27 78.74) (xy 275.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1747557-5255-4e3d-b240-d9d7df5da499")
+	)
+	(wire
+		(pts
 			(xy 68.58 30.48) (xy 68.58 35.56)
 		)
 		(stroke
@@ -4523,6 +7919,16 @@
 			(type default)
 		)
 		(uuid "d1812356-b593-4334-b920-3f2a0c981052")
+	)
+	(wire
+		(pts
+			(xy 285.75 106.68) (xy 285.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24fbee7-9142-449e-b2cf-8703fd2ea110")
 	)
 	(wire
 		(pts
@@ -4536,6 +7942,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 265.43) (xy 45.72 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b31414-1c64-4368-a7a8-2477344fe199")
+	)
+	(wire
+		(pts
 			(xy 88.9 91.44) (xy 88.9 93.98)
 		)
 		(stroke
@@ -4546,6 +7962,36 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 62.23) (xy 294.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ae88d1-1ca6-4a8d-8533-5d72dcc9f9bd")
+	)
+	(wire
+		(pts
+			(xy 96.52 241.3) (xy 96.52 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7196b50-8460-4207-99c6-593d13bb7de7")
+	)
+	(wire
+		(pts
+			(xy 45.72 214.63) (xy 55.88 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7370c74-66d8-417c-9e42-dfb1e41e33ae")
+	)
+	(wire
+		(pts
 			(xy 17.78 21.59) (xy 27.94 21.59)
 		)
 		(stroke
@@ -4553,6 +7999,36 @@
 			(type default)
 		)
 		(uuid "d76f91c8-df1d-4034-a421-29018058e250")
+	)
+	(wire
+		(pts
+			(xy 80.01 195.58) (xy 87.63 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a959ca-1302-45f0-af9a-9f923218a112")
+	)
+	(wire
+		(pts
+			(xy 255.27 106.68) (xy 255.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9658a1c-c515-46bb-be3f-ba4c0b4a4f35")
+	)
+	(wire
+		(pts
+			(xy 156.21 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99b165a-d2de-4dab-b564-b7d00c2e45cb")
 	)
 	(wire
 		(pts
@@ -4586,6 +8062,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 73.66) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd19263d-f778-40f2-932b-24305b9661fb")
+	)
+	(wire
+		(pts
+			(xy 295.91 106.68) (xy 295.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de18bcaa-4bc8-40b4-9ce2-140bd39ab8df")
+	)
+	(wire
+		(pts
 			(xy 86.36 158.75) (xy 97.79 158.75)
 		)
 		(stroke
@@ -4593,6 +8089,36 @@
 			(type default)
 		)
 		(uuid "dee29582-d387-42eb-8e14-c21506b06a14")
+	)
+	(wire
+		(pts
+			(xy 97.79 180.34) (xy 97.79 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41e62c8-29e5-4f06-aeca-d4df0fdaef4a")
+	)
+	(wire
+		(pts
+			(xy 294.64 40.64) (xy 294.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4aecbfa-9f11-422b-82c4-c52d80687bbb")
+	)
+	(wire
+		(pts
+			(xy 275.59 106.68) (xy 275.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d2f2fd-f24b-4c9e-b7a7-35dc9d9c5b01")
 	)
 	(wire
 		(pts
@@ -4606,6 +8132,36 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 111.76) (xy 255.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62760c1-09e5-4313-8b74-16ce115e5839")
+	)
+	(wire
+		(pts
+			(xy 36.83 247.65) (xy 45.72 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9722c2e-ff75-400e-9175-a43cde6d7783")
+	)
+	(wire
+		(pts
+			(xy 254 45.72) (xy 274.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d43701-6439-4600-b6da-5d32457a34aa")
+	)
+	(wire
+		(pts
 			(xy 57.15 45.72) (xy 57.15 53.34)
 		)
 		(stroke
@@ -4616,6 +8172,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 106.68) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7845da-4f3f-4ebf-a4e8-a87524f5e420")
+	)
+	(wire
+		(pts
+			(xy 45.72 247.65) (xy 62.23 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbebf9e-b0c0-4f8d-8151-c9a7eadaae5a")
+	)
+	(wire
+		(pts
 			(xy 17.78 19.05) (xy 17.78 21.59)
 		)
 		(stroke
@@ -4623,6 +8199,16 @@
 			(type default)
 		)
 		(uuid "ebd14df8-f1b1-4357-8e26-f6be880a8c29")
+	)
+	(wire
+		(pts
+			(xy 35.56 200.66) (xy 45.72 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdbd441-31f6-46be-a6bb-c84834b65d1f")
 	)
 	(wire
 		(pts
@@ -4643,6 +8229,46 @@
 			(type default)
 		)
 		(uuid "ed398d6e-79c2-48e1-bc1d-78fffb056766")
+	)
+	(wire
+		(pts
+			(xy 208.28 242.57) (xy 208.28 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed99edbd-8ca1-4d13-bbde-8609318c524f")
+	)
+	(wire
+		(pts
+			(xy 73.66 247.65) (xy 77.47 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2d5ccc-75b8-4a67-ae9b-3210cbc0c842")
+	)
+	(wire
+		(pts
+			(xy 97.79 210.82) (xy 97.79 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec2d62a-3477-469e-87ed-6c5639ddfeed")
+	)
+	(wire
+		(pts
+			(xy 156.21 100.33) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2af547-12c2-43ff-899e-5f7528cbf9f3")
 	)
 	(wire
 		(pts
@@ -4676,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 214.63) (xy 45.72 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f3d74d-4088-4d32-b9af-794fbcedca16")
+	)
+	(wire
+		(pts
 			(xy 27.94 19.05) (xy 27.94 21.59)
 		)
 		(stroke
@@ -4696,6 +8332,36 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 90.17) (xy 285.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f568625e-fd0c-45af-925f-9c1f707b7bb9")
+	)
+	(wire
+		(pts
+			(xy 285.75 40.64) (xy 285.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5914160-eb36-4770-b69b-2fdb4dc7b1c4")
+	)
+	(wire
+		(pts
+			(xy 285.75 73.66) (xy 285.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e7b701-28bd-4e2e-ae60-35f2b5f3dc51")
+	)
+	(wire
+		(pts
 			(xy 82.55 146.05) (xy 86.36 146.05)
 		)
 		(stroke
@@ -4703,6 +8369,16 @@
 			(type default)
 		)
 		(uuid "f5f2e36f-afc2-4d6e-8281-a6b46c28c76c")
+	)
+	(wire
+		(pts
+			(xy 80.01 200.66) (xy 81.28 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66af753-293c-4134-9db1-01e702ea82ae")
 	)
 	(wire
 		(pts
@@ -4716,6 +8392,36 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 90.17) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f728f401-58b1-4b9f-a78b-5ce8217e89f5")
+	)
+	(wire
+		(pts
+			(xy 275.59 111.76) (xy 295.91 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8beddaa-5018-45c7-8f81-a52fb6ca17ff")
+	)
+	(wire
+		(pts
+			(xy 96.52 259.08) (xy 96.52 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa60ed69-f69f-48a4-b0e7-35ef47ecc8c5")
+	)
+	(wire
+		(pts
 			(xy 44.45 21.59) (xy 44.45 26.67)
 		)
 		(stroke
@@ -4723,6 +8429,16 @@
 			(type default)
 		)
 		(uuid "fb0e918e-8d6c-42cc-88f8-841866a5c835")
+	)
+	(wire
+		(pts
+			(xy 176.53 193.04) (xy 154.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb22fab3-ec30-45e9-bc01-22b4feabd6ca")
 	)
 	(wire
 		(pts
@@ -4736,6 +8452,36 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 234.95) (xy 45.72 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbeab22e-5f80-4ac9-9b9a-317c98f7cf36")
+	)
+	(wire
+		(pts
+			(xy 275.59 90.17) (xy 275.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1bf672-446c-42f5-bfc9-62de3cf31cb0")
+	)
+	(wire
+		(pts
+			(xy 205.74 146.05) (xy 205.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc565494-ffd1-480c-b45d-0a26e56577c9")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 100.33 35.56)
 		)
 		(stroke
@@ -4743,6 +8489,16 @@
 			(type default)
 		)
 		(uuid "fec33ac9-c3a8-4314-b2e4-12f5948f0d0d")
+	)
+	(wire
+		(pts
+			(xy 128.27 245.11) (xy 132.08 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee7ffb0-308d-436f-b513-6921bf251cb8")
 	)
 	(wire
 		(pts
@@ -4754,6 +8510,76 @@
 		)
 		(uuid "fef1ef62-e3ae-4d09-bbc4-8ef6810e5c6a")
 	)
+	(label "jack"
+		(at 132.08 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a897c4d-c961-4c19-8256-f2fa60fc1bdd")
+	)
+	(label "Col1"
+		(at 245.11 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13aafbf8-1cb1-4893-8fdc-68d6e9565f58")
+	)
+	(label "Col3"
+		(at 285.75 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21a7901e-eec0-4fbc-b93a-51a441e1ac99")
+	)
+	(label "Ligne_2"
+		(at 220.98 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29549bd0-2ccf-4262-bbfb-d293f1c0e77d")
+	)
+	(label "Col4"
+		(at 306.07 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "336bf3ef-a123-4a04-b9d5-45f964ef86f6")
+	)
+	(label "Ligne_3"
+		(at 220.98 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33cbffda-0c9a-4146-b9c8-cb5cae4785bb")
+	)
+	(label "Ligne_6"
+		(at 223.52 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e9483b-353c-44e0-985b-60f70cb197ef")
+	)
 	(label "Micro_ADC"
 		(at 154.94 33.02 0)
 		(effects
@@ -4763,6 +8589,156 @@
 			(justify left bottom)
 		)
 		(uuid "6d161815-0378-449c-a8ee-7fdb56c40002")
+	)
+	(label "HP_PWM"
+		(at 44.45 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aca37c8-ba1f-4c00-a486-709a14afe8f7")
+	)
+	(label "HP_PWM"
+		(at 44.45 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ddbd5ab-7984-4b81-a4a8-0c698685df2e")
+	)
+	(label "Col2"
+		(at 265.43 121.92 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "963f78bc-e5e1-4005-81d4-ee20dc69265d")
+	)
+	(label "Ligne_5"
+		(at 222.25 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c9f2930-f0f9-48a3-a33c-4407fbf30b47")
+	)
+	(label "Ligne_1"
+		(at 220.98 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2b1f184-97af-4842-b33c-5b88bccfdb54")
+	)
+	(label "Ligne_4"
+		(at 220.98 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcdeb7ff-9351-4f17-8d8a-e3c1909263cb")
+	)
+	(label "HP_PWM"
+		(at 36.83 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5aa79fd-3ffb-4a68-82af-608f1199fd7a")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015b9e34-4b9d-44d4-b789-b1a092b731dd")
+		(property "Reference" "SW21"
+			(at 240.03 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85e59c3d-f661-4803-ac56-e018826efac8")
+		)
+		(pin "2"
+			(uuid "fe76ca90-40ce-41f5-b76e-7bd90225cc9f")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -4917,6 +8893,86 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e1054c-c191-4eba-93d5-772ca67ec633")
+		(property "Reference" "SW9"
+			(at 238.76 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6f22572-94e1-41c7-af89-59ec5e190885")
+		)
+		(pin "2"
+			(uuid "33cd9e99-9936-494c-8b80-1a2c6c4625a8")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -5087,6 +9143,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12d2f98c-b8d5-4d08-ac84-7e83d482081f")
+		(property "Reference" "SW13"
+			(at 240.03 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8306eb5d-d53d-47db-91d8-4b9b6087a303")
+		)
+		(pin "2"
+			(uuid "6a969c48-3c09-4b15-b850-687f20215a22")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 17.78 19.05 0)
 		(unit 1)
@@ -5159,6 +9295,489 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a22b25-fb7b-4bb3-8bff-6f636ea597c1")
+		(property "Reference" "R14"
+			(at 99.06 253.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 99.06 256.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.536 255.524 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 96.52 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7427a93-8a95-4cb9-bbfc-57f2e626c2ae")
+		)
+		(pin "1"
+			(uuid "7ecbbee6-52a0-4dbd-b413-655b2950c3f2")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181e35e6-f3e5-4ae4-b13b-3564496fa38e")
+		(property "Reference" "C17"
+			(at 59.69 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 59.69 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.8452 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eab73b6e-b27f-4d10-a916-27e44b08721a")
+		)
+		(pin "2"
+			(uuid "8d78be4b-4465-4344-8e19-1a63c70c8f72")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189a28dd-5c3c-47f8-a5eb-86544814ac39")
+		(property "Reference" "C26"
+			(at 185.42 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 185.42 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.5752 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15b2387e-a4a2-4402-a352-2bc4fd664fdd")
+		)
+		(pin "2"
+			(uuid "1ae3f9f8-5a1f-4343-b3d1-1819f9459a31")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 189.23 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "202edc75-d142-4b2b-b919-7f2b8877b463")
+		(property "Reference" "J1"
+			(at 188.595 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 188.595 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 189.23 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3338643-d4f3-406d-87a2-a5b32141fb44")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 300.99 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24a7577a-95dc-470f-b686-d1ea1a8e1c5f")
+		(property "Reference" "SW16"
+			(at 300.99 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 300.99 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 300.99 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "943415c5-671f-479a-900c-86ce99fffdde")
+		)
+		(pin "2"
+			(uuid "b7062d69-89d2-41fe-b2cc-67d10a62d4f2")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 260.35 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2708efa1-c950-41c3-b236-71c00b0fd836")
+		(property "Reference" "SW18"
+			(at 260.35 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 260.35 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "256cd8ab-5222-4d99-846f-9abe2b1a7231")
+		)
+		(pin "2"
+			(uuid "9b94d2eb-6c34-4d1a-8f54-82bfe87f6316")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -5241,6 +9860,485 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5f62ca-2773-4700-8565-386ae64ff618")
+		(property "Reference" "SW8"
+			(at 299.72 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 299.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f27c817-e220-4cad-9dbf-a4dd4b5245be")
+		)
+		(pin "2"
+			(uuid "49ed14cc-039e-48a2-be38-f20bf30613f6")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 259.08 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bd06af5-817d-4f85-8057-a3f703fb80fe")
+		(property "Reference" "SW6"
+			(at 259.08 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 259.08 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 259.08 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e4e283-efd5-4493-abc8-d3559fa110dd")
+		)
+		(pin "2"
+			(uuid "7e2533c9-5a47-42b4-84ec-a26c29d0145d")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "339f7c46-557d-4866-88b4-c916e0c9a902")
+		(property "Reference" "C12"
+			(at 58.42 179.324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 58.166 181.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 184.4548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "480e7641-75f8-4afe-bffb-4d28d8293600")
+		)
+		(pin "2"
+			(uuid "8ef13b55-8945-4809-bc20-e9469d612697")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34aa57dc-2e65-4500-ae17-048c7504f102")
+		(property "Reference" "SW1"
+			(at 238.76 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d4d0377-3911-445a-844d-3be9c4e7e895")
+		)
+		(pin "2"
+			(uuid "c9723abd-aa4e-4c25-a9e7-37d677c4efe1")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35f2ad7e-9db0-4385-b814-290f2e6fbca3")
+		(property "Reference" "#PWR09"
+			(at 68.58 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2514b177-d54f-40ff-a4dc-65c490d248e0")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36693156-d7cc-4bd1-84aa-023e14e3a273")
+		(property "Reference" "C19"
+			(at 39.37 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 39.37 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.5252 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa03f46f-1ffe-4bf8-aae8-3c4ee67a9c03")
+		)
+		(pin "2"
+			(uuid "137fa559-48d3-40cb-9f06-d200b03d7805")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5485,8 +10583,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 166.37 102.87 180)
+		(lib_id "Device:R_US")
+		(at 116.84 259.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5495,31 +10593,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40c1e4ae-7317-4c02-a2d1-3d6df50f6774")
-		(property "Reference" "J1"
-			(at 167.64 100.3299 0)
+		(uuid "3fe1ddfd-4f96-4de5-b379-0e00f218213b")
+		(property "Reference" "R15"
+			(at 116.84 252.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 167.64 102.8699 0)
+		(property "Value" "1M"
+			(at 116.84 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 102.87 0)
+			(at 117.094 258.064 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +10626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 102.87 0)
+			(at 116.84 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,8 +10636,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 166.37 102.87 0)
+		(property "Description" "Resistor, US symbol"
+			(at 116.84 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5550,17 +10646,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "4aa1d8d8-256b-4df4-9342-00a76579c71b")
 		)
 		(pin "2"
-			(uuid "9e1e1ebf-ba39-47e5-b3de-d516ca78e943")
+			(uuid "e14498f8-b2f0-4982-82b9-e6d55c6ee052")
+		)
+		(pin "1"
+			(uuid "86ba9b13-cee8-4351-8d54-5f29921805ca")
 		)
 		(instances
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
-					(reference "J1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5745,6 +10841,326 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c0f1bf2-a1ce-4859-b454-f0bfd9c7d9e2")
+		(property "Reference" "SW17"
+			(at 240.03 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 240.03 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 240.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90e00324-01e6-4190-8dca-3fdbe8037ba0")
+		)
+		(pin "2"
+			(uuid "9e9a26ca-4db5-4006-aef3-87559dfbd134")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6f23cd-22a1-4f9b-8596-437b5a7bd348")
+		(property "Reference" "C22"
+			(at 69.85 252.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 69.85 255.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 259.3848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80ea536b-619c-4d56-88af-22153c91d75b")
+		)
+		(pin "2"
+			(uuid "ad0adac6-6a48-4ef6-ad73-20dd9433c0c9")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 260.35 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5066cffe-fda9-47fd-b559-a2e575350444")
+		(property "Reference" "SW14"
+			(at 260.35 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 260.35 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39efda16-847a-477e-8493-e29cf198254c")
+		)
+		(pin "2"
+			(uuid "604406c4-59df-4324-8a6b-986b2622bf1f")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 85.09 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506ed0c4-9d96-427d-adac-ee4b6018b36c")
+		(property "Reference" "R12"
+			(at 85.09 241.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 85.09 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.344 246.634 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 85.09 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "792103fe-1963-4ee4-8821-e00241216ab1")
+		)
+		(pin "1"
+			(uuid "146b2d8e-a458-40f1-9eb7-84c5dd6fb3d6")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.99 143.51 0)
 		(unit 1)
@@ -5817,6 +11233,84 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 247.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530a9f8f-f8f6-4f39-99d8-e3d9ee4dc95c")
+		(property "Reference" "#PWR014"
+			(at 208.28 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5268905-47ad-4e55-8923-d24ad3f316a7")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5920,6 +11414,168 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 280.67 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5686bb55-afca-407d-aa3a-7cf55ef0f26d")
+		(property "Reference" "SW23"
+			(at 280.67 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 280.67 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 280.67 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6058b35-4897-4211-abec-5096f366abb9")
+		)
+		(pin "2"
+			(uuid "ab22803e-0946-4631-b098-e22e86ca5c5a")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 123.19 190.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5710c872-7ffd-4138-bb35-73e636b4a618")
+		(property "Reference" "J?"
+			(at 124.46 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 124.46 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 123.19 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095a1937-b356-4fb0-951c-0475e91a3c9d")
+		)
+		(pin "2"
+			(uuid "3fb5f8ec-c5ba-49ef-b700-7f12b2b3357b")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -6260,6 +11916,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b93213-1064-4f3f-ae4b-6cb3bcfc5d12")
+		(property "Reference" "#PWR013"
+			(at 208.28 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7ee066b-93cb-4193-b69a-72f3bb74f1cc")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NJM5532")
 		(at 138.43 33.02 0)
 		(unit 1)
@@ -6358,6 +12092,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 238.76 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722db261-aab4-4758-a0a1-da972d1943c7")
+		(property "Reference" "SW5"
+			(at 238.76 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 238.76 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 238.76 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acf68b8b-5d8e-4bb0-a725-1fb015f34896")
+		)
+		(pin "2"
+			(uuid "edfe10ee-2ba4-4a88-bc66-675259911e7b")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 124.46 203.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e53130-8b87-4a98-b604-50a7c8bcf913")
+		(property "Reference" "J?"
+			(at 125.73 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 125.73 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 124.46 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cf2e839-552d-4168-91f0-28199daa9e35")
+		)
+		(pin "2"
+			(uuid "f9088c98-b197-421b-893c-f7fc323866e2")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f99425-bedf-4d36-9867-0c4f116159e9")
+		(property "Reference" "C16"
+			(at 72.39 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 72.39 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abbdd424-ffae-4695-a910-907c1987fafa")
+		)
+		(pin "2"
+			(uuid "2182bd1c-f3dc-4e41-925f-c044830d9973")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 77.47 87.63 90)
 		(unit 1)
@@ -6445,6 +12423,163 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 189.23 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7575c6c1-f636-4954-a04a-909f52c01659")
+		(property "Reference" "J2"
+			(at 188.595 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 188.595 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 189.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa59b5f7-f3ca-45b1-956c-ff213aa602e4")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fd259d-349e-4928-8665-09ad80854f65")
+		(property "Reference" "SW4"
+			(at 299.72 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 299.72 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4161c94c-756a-45a0-86e9-1329ffb82645")
+		)
+		(pin "2"
+			(uuid "5e0dfe19-de61-4e89-91ab-697f778dfc81")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6697,6 +12832,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 34.29 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7abb13f4-a45e-4772-84cf-006ed4a264fa")
+		(property "Reference" "C20"
+			(at 36.83 254.1269 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 36.83 256.6669 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 34.29 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2775ab14-0f69-46ad-88a0-011c67841a89")
+		)
+		(pin "1"
+			(uuid "8b6b3d01-26b2-4f17-9e91-183b56ea7d1b")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 119.38 43.18 0)
 		(unit 1)
@@ -6773,6 +12990,328 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eeef641-a649-4681-a819-f09b1d461a5d")
+		(property "Reference" "C15"
+			(at 83.82 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 83.82 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.9752 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9484d67e-68eb-46f9-bc43-4aa03b9cc544")
+		)
+		(pin "2"
+			(uuid "071b5e38-e97d-47b4-b55c-6576ca58d09a")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 247.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f580ce1-450d-4c7a-b8c9-988157386a29")
+		(property "Reference" "C21"
+			(at 69.85 240.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 69.85 242.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 246.6848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9071ebf-6306-4d4d-8928-4fad82f8ca52")
+		)
+		(pin "2"
+			(uuid "8ac8b9d6-9217-4a64-9b95-8ee5580bb798")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 300.99 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fad67ff-0d9b-43ba-8925-d899fa8f86d1")
+		(property "Reference" "SW24"
+			(at 300.99 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 300.99 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 300.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5d0bec5-1095-416a-91da-6df376028e62")
+		)
+		(pin "2"
+			(uuid "47034895-0d42-48a2-af9d-bf12d0589aa3")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 279.4 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81394540-d589-4df8-aab4-1c68e8653e35")
+		(property "Reference" "SW7"
+			(at 279.4 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 279.4 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 279.4 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "762d838c-0ba4-4117-a2fa-3d471f893460")
+		)
+		(pin "2"
+			(uuid "90d9d540-020f-4176-86fb-a41b0abd671b")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -6939,6 +13478,407 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 259.08 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8942dcaa-7ece-468a-a50d-55b86afc28d0")
+		(property "Reference" "SW2"
+			(at 259.08 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 259.08 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 259.08 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5dcb081-5a04-4dc6-abf2-dbad94704275")
+		)
+		(pin "2"
+			(uuid "cad81285-c476-44ec-be00-f4dea16ead68")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5b50b9-f805-4003-88e3-14d61e0d6989")
+		(property "Reference" "C24"
+			(at 160.02 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 160.02 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19d37283-e263-4a69-a32f-5f444dde376f")
+		)
+		(pin "2"
+			(uuid "1c99ec28-6c03-4d39-b2d9-d8b01ed65b9a")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c13cd3a-a98f-4286-b9ad-b61c07426ace")
+		(property "Reference" "C14"
+			(at 57.658 190.246 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 57.912 192.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 194.6148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bfbdec4-e6c1-4f5e-89a5-d32cf6780ddc")
+		)
+		(pin "2"
+			(uuid "65bda90e-4afe-4beb-be3a-0cb7c20e87ba")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 170.18 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d1b13a6-b8b6-446b-be2f-499005dad468")
+		(property "Reference" "C25"
+			(at 173.99 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 173.99 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.1452 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c736ad8-7176-4628-957e-f784bf791026")
+		)
+		(pin "2"
+			(uuid "c96d2d3c-c7ec-467b-bace-eb7ca153311b")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900feed3-4bcd-4885-8542-e56521debaed")
+		(property "Reference" "#PWR012"
+			(at 45.72 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42b4e37e-850d-47c3-b288-bd00ad70275d")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 161.29 0)
 		(unit 1)
@@ -7017,9 +13957,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NJM5532")
-		(at 109.22 3.81 0)
-		(unit 2)
+		(lib_id "Switch:SW_Push")
+		(at 280.67 90.17 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7027,9 +13967,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92988d50-9d56-4865-9a12-ab01c19641bf")
-		(property "Reference" "U1"
-			(at 109.22 -6.35 0)
+		(uuid "97e70b37-2a8d-4446-922b-8755c85602ed")
+		(property "Reference" "SW19"
+			(at 280.67 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7038,8 +13978,8 @@
 				)
 			)
 		)
-		(property "Value" "NJM5532"
-			(at 109.22 -3.81 0)
+		(property "Value" "SW_Push"
+			(at 280.67 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7049,7 +13989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 3.81 0)
+			(at 280.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,8 +13999,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM5532_E.pdf"
-			(at 109.22 3.81 0)
+		(property "Datasheet" ""
+			(at 280.67 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,8 +14010,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifier, DIP-8/DMP-8/SIP-8"
-			(at 109.22 3.81 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 280.67 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7080,36 +14020,98 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "5"
-			(uuid "cca0c83c-c0d0-4a4d-9b03-e93eb9836d4f")
-		)
-		(pin "8"
-			(uuid "515dbc60-c23f-47a1-85ec-753ec3665b76")
-		)
-		(pin "3"
-			(uuid "147d6a96-f37f-4e51-b25c-06e26efa5683")
-		)
-		(pin "6"
-			(uuid "54bb4392-862b-4d23-9535-9fd82215dd96")
-		)
-		(pin "4"
-			(uuid "825b82b7-42f2-4bc3-8646-ca71dd7ccab2")
-		)
-		(pin "7"
-			(uuid "0bdf326a-2b94-4c21-8b55-78a828d4e83a")
 		)
 		(pin "1"
-			(uuid "2856bf7d-9b68-47d6-96f6-2871898c5638")
+			(uuid "d23842f3-50c3-4f25-8a40-4929a2595607")
 		)
 		(pin "2"
-			(uuid "90f9169d-1e5e-482e-8312-2b241cf6d1eb")
+			(uuid "2ebda0f2-1e34-43a5-be30-5b42ea8b96fd")
 		)
 		(instances
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
-					(reference "U1")
-					(unit 2)
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 300.99 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98617768-d05c-4036-8ce7-b6aa43b5180a")
+		(property "Reference" "SW20"
+			(at 300.99 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 300.99 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 300.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e44980c5-1068-403a-bf23-9dc304f8ffb1")
+		)
+		(pin "2"
+			(uuid "b48b1ec8-7ff2-4c83-8372-c90b616ba979")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW20")
+					(unit 1)
 				)
 			)
 		)
@@ -7228,6 +14230,246 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 280.67 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1f0078-1443-45f9-8a2f-d8ec60bc7169")
+		(property "Reference" "SW15"
+			(at 280.67 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 280.67 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 280.67 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e886a106-04f7-4013-9ccb-d39c18270780")
+		)
+		(pin "2"
+			(uuid "c5c98acc-b886-4fe9-a49e-c767d783bb91")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 279.4 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f2b3286-2e31-4b9d-b753-f5de10bbee36")
+		(property "Reference" "SW3"
+			(at 279.4 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 279.4 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 279.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12b148a5-cc6f-4536-b1d7-b958754f11a9")
+		)
+		(pin "2"
+			(uuid "afbe5e4c-a04b-4de9-8e9c-d2a226d04aa5")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 279.4 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b5cda3-80a8-4184-8c8d-1c0536da7d85")
+		(property "Reference" "SW11"
+			(at 279.4 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 279.4 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 279.4 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1374ceaa-4a79-46b9-b093-bc72e9d43ad6")
+		)
+		(pin "2"
+			(uuid "ac4634f0-2fc7-42e4-ad83-8211e9ce8349")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 48.26 90)
 		(unit 1)
@@ -7302,6 +14544,84 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa1f2ff2-bf8c-4b58-88a9-b6713da73f5b")
+		(property "Reference" "#PWR011"
+			(at 45.72 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 273.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ac1bc31-bf1f-4e2a-94ed-7bf298569e62")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7384,6 +14704,184 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NJM5532")
+		(at 115.57 245.11 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a8b744-e27d-43b1-9e99-591a658f5bff")
+		(property "Reference" "U1"
+			(at 115.57 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM5532"
+			(at 115.57 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM5532_E.pdf"
+			(at 115.57 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifier, DIP-8/DMP-8/SIP-8"
+			(at 115.57 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "53221e68-caf6-46a4-b50d-414050a2bac5")
+		)
+		(pin "8"
+			(uuid "515dbc60-c23f-47a1-85ec-753ec3665b76")
+		)
+		(pin "3"
+			(uuid "147d6a96-f37f-4e51-b25c-06e26efa5683")
+		)
+		(pin "6"
+			(uuid "6452890d-b0c9-42cc-be1a-bdee1256fe02")
+		)
+		(pin "4"
+			(uuid "825b82b7-42f2-4bc3-8646-ca71dd7ccab2")
+		)
+		(pin "7"
+			(uuid "5fbde660-27fb-4d37-b395-ffc52e9c5a77")
+		)
+		(pin "1"
+			(uuid "2856bf7d-9b68-47d6-96f6-2871898c5638")
+		)
+		(pin "2"
+			(uuid "90f9169d-1e5e-482e-8312-2b241cf6d1eb")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 269.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2be8fcc-660b-45c0-b596-039d68788877")
+		(property "Reference" "C23"
+			(at 116.84 261.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 116.84 264.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 268.2748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "345e5d44-51b7-4030-b93c-3ec21d9f337d")
+		)
+		(pin "2"
+			(uuid "b0f3362a-dd6b-4106-9cb4-e1e95b62aecd")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7795,7 +15293,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Audio:PAM8403D")
-		(at 83.82 219.71 0)
+		(at 100.33 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7806,7 +15304,7 @@
 		(fields_autoplaced yes)
 		(uuid "b78ce3df-8f07-42f1-a19b-732ae2d20a06")
 		(property "Reference" "U4"
-			(at 85.9633 201.93 0)
+			(at 102.4733 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7817,7 +15315,7 @@
 			)
 		)
 		(property "Value" "PAM8403D"
-			(at 85.9633 204.47 0)
+			(at 102.4733 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7828,7 +15326,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 83.82 219.71 0)
+			(at 100.33 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,7 +15337,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM8403.pdf"
-			(at 78.74 214.63 0)
+			(at 95.25 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +15348,7 @@
 			)
 		)
 		(property "Description" "3W Filterless Class-D Stereo Audio Amplifier, SOIC-16"
-			(at 83.82 219.71 0)
+			(at 100.33 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7912,6 +15410,401 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 299.72 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bacf73c8-ae0c-406b-a6ce-e9f9f31f752d")
+		(property "Reference" "SW12"
+			(at 299.72 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 299.72 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 299.72 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1e4a49f-5530-4d47-ad10-ffabcafd8ee5")
+		)
+		(pin "2"
+			(uuid "7769c0d5-54e8-4069-8ce1-1a207f032c53")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 76.2 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcd0aece-9993-4e20-b886-31e076657031")
+		(property "Reference" "R10"
+			(at 81.28 192.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 80.772 194.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.454 194.564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 76.2 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0fc9160d-a901-44cf-8063-75dae1f84f78")
+		)
+		(pin "1"
+			(uuid "c6e10a80-55f9-4534-bda6-19089cce0d67")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 180.34 193.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "caafcb23-ff29-4fa0-a3b2-042b90b45145")
+		(property "Reference" "R16"
+			(at 180.086 187.706 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 180.086 189.992 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.594 192.024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 180.34 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "92f62d51-73d5-4231-acab-a6bbc9498246")
+		)
+		(pin "1"
+			(uuid "dcbdf318-3334-4ced-986c-902c91d83cbf")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 190.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccdbf95d-b2f5-467f-992e-9f95449e7684")
+		(property "Reference" "C13"
+			(at 73.406 186.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470n"
+			(at 73.406 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 191.4652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4839286-793d-4e60-a946-b4c04957b99e")
+		)
+		(pin "2"
+			(uuid "aae2bb99-2df8-415e-bc95-5766f3473f78")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 100.33 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a19371-699b-40dc-b1fb-d48a47a6e89d")
+		(property "Reference" "#PWR010"
+			(at 100.33 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 100.33 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6da7df1d-cc9b-4f22-ae95-e4e4cfd2d337")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7999,6 +15892,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 45.72 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da41b7b6-37d9-46b4-968e-c91222e93c81")
+		(property "Reference" "R11"
+			(at 48.26 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 48.26 240.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.736 239.014 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 45.72 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43d7ca7f-891d-403e-9999-3c731a1f6024")
+		)
+		(pin "1"
+			(uuid "48138de4-be93-4301-86d7-dbc882e2e716")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 88.9 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -8074,6 +16049,329 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 96.52 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5a3eda-399a-40ae-81b8-216eb33dabf8")
+		(property "Reference" "R13"
+			(at 99.06 236.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 99.06 238.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.536 237.744 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 96.52 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "114c08b7-d8d9-41d9-8773-a0c97472b99d")
+		)
+		(pin "1"
+			(uuid "7cb0a6a0-acd7-4997-886d-7371a2622f3f")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 259.08 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e19440bf-2a52-48a9-85a6-965b91b1dc5e")
+		(property "Reference" "SW10"
+			(at 259.08 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 259.08 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 259.08 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f13beba1-bada-4a62-aa38-aa319bfe3dc7")
+		)
+		(pin "2"
+			(uuid "2977cdca-8d1f-4abc-bf34-2af2897b7752")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edad7d60-b807-46cd-ab85-a73cc33f337c")
+		(property "Reference" "C18"
+			(at 49.53 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 49.53 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.6852 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "529b1033-8867-4353-bed7-6abe98a4db55")
+		)
+		(pin "2"
+			(uuid "d4110cb8-31f8-4d80-b100-2c75d6f5652e")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 80.01 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efbfd9d4-902e-4df0-8aa0-96a60bcedb59")
+		(property "Reference" "R9"
+			(at 79.756 180.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 79.756 182.372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.264 184.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 80.01 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c34ad17-dd1a-4899-90bc-82c30dd98ffa")
+		)
+		(pin "1"
+			(uuid "4d4f7b12-c032-4ee4-b450-02a40ecff878")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8258,6 +16556,307 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
+		(at 208.28 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f4b7c3-d624-4f6d-9f31-fa77b9c90711")
+		(property "Reference" "U5"
+			(at 212.9633 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F103C8Tx"
+			(at 212.9633 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 193.04 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
+			(at 208.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 208.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "20"
+			(uuid "71c470fd-9742-48ab-a3f9-11e7823b0aa3")
+		)
+		(pin "40"
+			(uuid "6276c7bf-9e6e-4ac8-ad9e-460b1799f047")
+		)
+		(pin "32"
+			(uuid "980b295e-09ea-4699-b2cd-76c4c0ebe1df")
+		)
+		(pin "30"
+			(uuid "0a8bd2e7-9a8d-412f-8f22-63af30ba2759")
+		)
+		(pin "12"
+			(uuid "78ba09b0-95de-4737-b23f-e602119a1fe0")
+		)
+		(pin "25"
+			(uuid "e918815a-074f-44d6-94df-58db8e2be380")
+		)
+		(pin "36"
+			(uuid "81da9379-1381-4dea-aeae-a7b75634180a")
+		)
+		(pin "19"
+			(uuid "f588d609-cbd6-4e04-a500-2cf0239dceb1")
+		)
+		(pin "22"
+			(uuid "ff9c1443-fe88-4633-bdcf-eb869e5c61a4")
+		)
+		(pin "16"
+			(uuid "eef88cd1-c785-4137-80bb-a2a7867d092d")
+		)
+		(pin "14"
+			(uuid "bd551544-9839-43fb-a192-f78e3a07e857")
+		)
+		(pin "23"
+			(uuid "30cf9981-205d-4f9f-b55d-daaf36aff302")
+		)
+		(pin "24"
+			(uuid "6ad9ba54-a986-43bd-9a2b-bbcc72dfb95e")
+		)
+		(pin "28"
+			(uuid "d0663020-2718-4d02-99f1-2fa062ceb023")
+		)
+		(pin "35"
+			(uuid "2e815367-4a64-43a0-9b09-7e39cec4f15d")
+		)
+		(pin "38"
+			(uuid "ae802fee-77da-4a1e-9ce9-e703f0d984bb")
+		)
+		(pin "17"
+			(uuid "33cad7aa-cb36-4120-b8c7-a35860e2ab47")
+		)
+		(pin "39"
+			(uuid "68095115-205f-4df3-a121-501007627758")
+		)
+		(pin "18"
+			(uuid "45794c51-5202-46da-91ac-42f0fc0f9188")
+		)
+		(pin "37"
+			(uuid "b135d11c-ac22-4107-bed8-e886f098af43")
+		)
+		(pin "13"
+			(uuid "48db02f4-7374-4076-ba23-85f5e5a65600")
+		)
+		(pin "21"
+			(uuid "41da5092-808b-4f5a-8c64-56f6b6592bfd")
+		)
+		(pin "33"
+			(uuid "a0b6a446-4398-45fd-a80b-2935dc061e46")
+		)
+		(pin "27"
+			(uuid "f3a004ea-961a-49d2-adc5-5e6579886807")
+		)
+		(pin "29"
+			(uuid "fcc90b42-963b-4165-800f-695b39fe4ef6")
+		)
+		(pin "31"
+			(uuid "baaede53-b218-46d5-af74-86d02e196aaa")
+		)
+		(pin "15"
+			(uuid "63d3bb38-8444-4f9f-b35a-7db197d711eb")
+		)
+		(pin "34"
+			(uuid "529c265f-5513-41ac-8368-d1ba029156be")
+		)
+		(pin "41"
+			(uuid "b22f52e6-41d1-45c2-847d-551deee8c542")
+		)
+		(pin "26"
+			(uuid "b3bf17f6-c087-4bb6-a092-4f157571b543")
+		)
+		(pin "42"
+			(uuid "3f52df56-f61a-4c66-96b6-01ddbd8fab3a")
+		)
+		(pin "44"
+			(uuid "b054cd98-afd2-4478-9ea7-092d93130ec9")
+		)
+		(pin "45"
+			(uuid "40ed0c56-b95f-45d4-8b02-5800e105e1f0")
+		)
+		(pin "47"
+			(uuid "d1fcd13a-3b02-4863-93ba-dff8d722e1d5")
+		)
+		(pin "48"
+			(uuid "617a41d7-652f-4911-ba21-47644090f27c")
+		)
+		(pin "46"
+			(uuid "3dbc3770-a1d8-486b-86b1-2b77b2cd0cbd")
+		)
+		(pin "43"
+			(uuid "e440f0ac-651e-42ca-bba6-a39ded601dca")
+		)
+		(pin "1"
+			(uuid "658c2a84-b6f4-4e47-aebb-746e8a1dd92d")
+		)
+		(pin "10"
+			(uuid "090214b2-1bde-4a7a-8b7d-52a174a3ea99")
+		)
+		(pin "11"
+			(uuid "8944874b-4925-444c-b116-e117b6bdfde5")
+		)
+		(pin "8"
+			(uuid "57660bcb-7991-44a0-80ad-2242b5d144a7")
+		)
+		(pin "5"
+			(uuid "664d0e2c-553b-426f-b9fe-3f43709229f1")
+		)
+		(pin "2"
+			(uuid "ccc575ec-a238-4523-8bd9-e5657fab9c82")
+		)
+		(pin "4"
+			(uuid "b73fa2a2-1709-4be7-a956-da5fb2b5e757")
+		)
+		(pin "6"
+			(uuid "b2a276a7-7e19-4fdd-930a-6b5fe2516a6f")
+		)
+		(pin "3"
+			(uuid "31245a26-86be-4755-99ce-bb9f5e2c6bf7")
+		)
+		(pin "7"
+			(uuid "66fe693d-aab5-4104-a414-cbed5fcefc75")
+		)
+		(pin "9"
+			(uuid "c7b16165-5877-40e7-a86f-789945be6932")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 260.35 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa03b8af-d1f7-42a0-8d22-09719432b228")
+		(property "Reference" "SW22"
+			(at 260.35 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 260.35 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ece6090-ec98-4cbf-ba83-37e2869540b5")
+		)
+		(pin "2"
+			(uuid "931cc397-faca-4c15-bc52-9d2640eb9e48")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW22")
 					(unit 1)
 				)
 			)

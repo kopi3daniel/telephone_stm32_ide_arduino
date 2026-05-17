@@ -312,7 +312,7 @@
 ### Correction du conflit PA8
 
 ```
-Option A : Diode d'isolement
+Option A : Diode d'isolement corrigeer
 ─────────────────────────────
 PA8 ────│>├──── Ligne 6 du clavier
          │
