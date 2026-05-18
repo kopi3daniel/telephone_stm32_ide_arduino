@@ -64,15 +64,15 @@ const char KEYPAD_LAYOUT[KEYPAD_ROWS][KEYPAD_COLS] = {
 #define AUDIO_SPK_PIN               PA_8
 
 // --- LED Torche (PWM) ---
-#define TORCH_PIN                   PA_11
+#define TORCH_PIN                   PA_15
 
 // --- Boutons physiques ---
 #define BTN_CALL_PIN                PB_8
 #define BTN_END_PIN                 PB_9
 
 // --- Buzzer et Vibreur ---
-#define BUZZER_PIN                  PC_15
-#define VIBRATOR_PIN                PC_14
+#define BUZZER_PIN                  PA_13
+#define VIBRATOR_PIN                PA_14
 
 // --- Mesure batterie ---
 #define BATTERY_ADC_PIN             PA_0

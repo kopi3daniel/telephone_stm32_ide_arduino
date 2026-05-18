@@ -2164,6 +2164,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4963,6 +5152,12 @@
 		(uuid "35570d60-7f5b-4484-b73e-7688bab4c208")
 	)
 	(junction
+		(at 354.33 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3563bc37-b21d-447c-bbac-8c5afc0771fa")
+	)
+	(junction
 		(at 104.14 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5045,6 +5240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55004534-1b8c-44db-bd54-a387f87570ee")
+	)
+	(junction
+		(at 354.33 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b7f012-1050-40ac-b7b0-a2d6420d2ac6")
 	)
 	(junction
 		(at 119.38 30.48)
@@ -5131,6 +5332,12 @@
 		(uuid "6e9d3430-d7d0-4245-bfec-496526ed2d01")
 	)
 	(junction
+		(at 354.33 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70a22b6e-d779-4a71-9e02-781e008386f6")
+	)
+	(junction
 		(at 45.72 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5141,6 +5348,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "759c0ccf-4a2e-438c-aa5f-caf33394486b")
+	)
+	(junction
+		(at 327.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7845ca96-1810-4c76-8674-e6149bd7c0e4")
 	)
 	(junction
 		(at 68.58 35.56)
@@ -5225,6 +5438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e86c46-596f-40fb-8ed9-bc09dcde8194")
+	)
+	(junction
+		(at 354.33 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98f3fe18-d5f5-4d68-91e7-15183e62cf89")
 	)
 	(junction
 		(at 101.6 80.01)
@@ -5321,6 +5540,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba03323c-d64c-4307-8a70-70bece472a55")
+	)
+	(junction
+		(at 327.66 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0b5b46-cb8a-45a9-bd0d-97c83ec0d28b")
 	)
 	(junction
 		(at 264.16 57.15)
@@ -5423,6 +5648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df88a2b2-aaec-4b66-a6c0-0d72f03e5b3e")
+	)
+	(junction
+		(at 327.66 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df9053c9-79cf-401d-90a7-94af2b5433b9")
 	)
 	(junction
 		(at 96.52 242.57)
@@ -5542,6 +5773,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 41.91) (xy 354.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062008d1-aa0b-427b-a5ea-42a0d87dccf6")
+	)
+	(wire
+		(pts
 			(xy 116.84 92.71) (xy 116.84 80.01)
 		)
 		(stroke
@@ -5569,6 +5810,16 @@
 			(type default)
 		)
 		(uuid "069b4a4f-6721-4c96-8fe7-663f06ccef7c")
+	)
+	(wire
+		(pts
+			(xy 327.66 71.12) (xy 327.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07367048-fc47-4048-9c9c-04597921c2ee")
 	)
 	(wire
 		(pts
@@ -5642,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 41.91) (xy 361.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8ea01c-edbd-44c1-9967-7ec687105dea")
+	)
+	(wire
+		(pts
 			(xy 294.64 57.15) (xy 294.64 62.23)
 		)
 		(stroke
@@ -5659,6 +5920,16 @@
 			(type default)
 		)
 		(uuid "0d68f778-11d5-4a07-a3d6-adf9149c2484")
+	)
+	(wire
+		(pts
+			(xy 327.66 54.61) (xy 327.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d759c96-07d2-45d9-bc5e-72335def16a6")
 	)
 	(wire
 		(pts
@@ -6002,6 +6273,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 41.91) (xy 354.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2201f6-9524-4e25-90d0-3b7fcf90c849")
+	)
+	(wire
+		(pts
 			(xy 181.61 115.57) (xy 181.61 124.46)
 		)
 		(stroke
@@ -6119,6 +6400,16 @@
 			(type default)
 		)
 		(uuid "358eb32a-8cc5-4868-b8f8-7e431081c0f0")
+	)
+	(wire
+		(pts
+			(xy 354.33 54.61) (xy 360.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35de7c28-480e-4d88-8d5b-66b09dcb9ac9")
 	)
 	(wire
 		(pts
@@ -6322,6 +6613,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 25.4) (xy 339.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f2cece-c482-4775-9270-aae0d53557be")
+	)
+	(wire
+		(pts
 			(xy 210.82 146.05) (xy 213.36 146.05)
 		)
 		(stroke
@@ -6522,6 +6823,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 71.12) (xy 327.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c4e471-748b-4fa9-a695-34e07f91f783")
+	)
+	(wire
+		(pts
 			(xy 97.79 158.75) (xy 97.79 154.94)
 		)
 		(stroke
@@ -6529,6 +6840,16 @@
 			(type default)
 		)
 		(uuid "5966d59f-a8f8-405b-80aa-0f197cde529a")
+	)
+	(wire
+		(pts
+			(xy 354.33 54.61) (xy 354.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a78cccb-a591-457b-ae0e-3aa5bd05fc06")
 	)
 	(wire
 		(pts
@@ -6542,6 +6863,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 54.61) (xy 339.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2c01e7-9feb-4fa9-9cc6-75238ff325ab")
+	)
+	(wire
+		(pts
 			(xy 24.13 118.11) (xy 24.13 124.46)
 		)
 		(stroke
@@ -6549,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "5b30ddf4-5af9-46ab-bc5a-96c6240384f0")
+	)
+	(wire
+		(pts
+			(xy 327.66 41.91) (xy 327.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7b3a5e-40fe-4a4e-bc6d-6a3b5a6aad36")
 	)
 	(wire
 		(pts
@@ -6599,6 +6940,16 @@
 			(type default)
 		)
 		(uuid "613ca8fe-f588-497e-a6f2-b66b04cde55a")
+	)
+	(wire
+		(pts
+			(xy 346.71 25.4) (xy 354.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618622cb-7317-45ee-8aae-8a70f82993fa")
 	)
 	(wire
 		(pts
@@ -6829,6 +7180,16 @@
 			(type default)
 		)
 		(uuid "705d5f65-32f7-4ad3-867e-a722afd84184")
+	)
+	(wire
+		(pts
+			(xy 347.98 71.12) (xy 354.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c5a97c-2263-45f4-b07f-31edd69858e2")
 	)
 	(wire
 		(pts
@@ -7162,6 +7523,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 71.12) (xy 354.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e48cf4a-222f-4026-a9bf-3b09139aca80")
+	)
+	(wire
+		(pts
 			(xy 105.41 124.46) (xy 116.84 124.46)
 		)
 		(stroke
@@ -7259,6 +7630,16 @@
 			(type default)
 		)
 		(uuid "94015bf2-6e15-4049-9388-ca6f535d91c5")
+	)
+	(wire
+		(pts
+			(xy 354.33 25.4) (xy 354.33 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949c670b-603f-4d04-b30b-53e6d3fcebef")
 	)
 	(wire
 		(pts
@@ -7442,6 +7823,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 71.12) (xy 360.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a978c6f6-e619-47e6-b6dc-4276db42ec58")
+	)
+	(wire
+		(pts
 			(xy 127 100.33) (xy 148.59 100.33)
 		)
 		(stroke
@@ -7579,6 +7970,16 @@
 			(type default)
 		)
 		(uuid "b51d0202-3517-49b1-b729-d1f2cdcafee9")
+	)
+	(wire
+		(pts
+			(xy 340.36 41.91) (xy 327.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58acab0-0a9a-411b-a9db-5788d206fd5b")
 	)
 	(wire
 		(pts
@@ -7822,6 +8223,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 41.91) (xy 327.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f78355-8e5a-451b-8eb4-39942a9fc593")
+	)
+	(wire
+		(pts
 			(xy 80.01 212.09) (xy 80.01 214.63)
 		)
 		(stroke
@@ -7899,6 +8310,16 @@
 			(type default)
 		)
 		(uuid "d1131831-10a4-4550-86f8-860fd5ea2a64")
+	)
+	(wire
+		(pts
+			(xy 354.33 25.4) (xy 360.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16c755b-b53d-4cbe-b457-87e47c29b2ae")
 	)
 	(wire
 		(pts
@@ -8162,6 +8583,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 24.13) (xy 388.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea76e685-1340-496b-9b17-07d120447cba")
+	)
+	(wire
+		(pts
 			(xy 57.15 45.72) (xy 57.15 53.34)
 		)
 		(stroke
@@ -8289,6 +8720,16 @@
 			(type default)
 		)
 		(uuid "f08ba3ed-dbcc-4bc3-a8ad-937efa82643e")
+	)
+	(wire
+		(pts
+			(xy 386.08 24.13) (xy 388.62 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f146c9a6-5bd1-4f5b-b5f1-bca11182f049")
 	)
 	(wire
 		(pts
@@ -8482,6 +8923,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 54.61) (xy 354.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7a6803-f565-4bc8-9211-cb8ec6d54eb7")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 100.33 35.56)
 		)
 		(stroke
@@ -8570,6 +9021,16 @@
 		)
 		(uuid "33cbffda-0c9a-4146-b9c8-cb5cae4785bb")
 	)
+	(label "PC15"
+		(at 360.68 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5521efa8-49f9-45dd-bd8d-7ac5dfc1afaa")
+	)
 	(label "Ligne_6"
 		(at 223.52 111.76 0)
 		(effects
@@ -8589,6 +9050,16 @@
 			(justify left bottom)
 		)
 		(uuid "6d161815-0378-449c-a8ee-7fdb56c40002")
+	)
+	(label "PC14"
+		(at 360.68 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a6c33fa-cd61-4ab6-ae65-294facf1329c")
 	)
 	(label "HP_PWM"
 		(at 44.45 185.42 0)
@@ -8649,6 +9120,26 @@
 			(justify left bottom)
 		)
 		(uuid "dcdeb7ff-9351-4f17-8d8a-e3c1909263cb")
+	)
+	(label "PD0"
+		(at 360.68 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb6a0fa6-f9d2-4ef7-bd02-d4aaf71e3488")
+	)
+	(label "PD1"
+		(at 361.95 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee74f0d8-9df8-4e5d-a4c6-3775e27ecebc")
 	)
 	(label "HP_PWM"
 		(at 36.83 247.65 0)
@@ -8893,6 +9384,86 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 344.17 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04c88315-4a3a-487b-81f1-0b05f60049bc")
+		(property "Reference" "C28"
+			(at 344.17 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22p"
+			(at 344.17 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 40.9448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 344.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "969be40d-e6d7-4166-bf78-8497d989c241")
+		)
+		(pin "2"
+			(uuid "47b43b85-e845-451c-9a2c-53ee360acda6")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9547,6 +10118,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 342.9 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ff35715-3aad-4d57-b47c-d072d457a3dd")
+		(property "Reference" "C29"
+			(at 342.9 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8p"
+			(at 342.9 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 53.6448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 342.9 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "695791f8-c829-4c27-8f42-eb4b1d283f4a")
+		)
+		(pin "2"
+			(uuid "d8aa3c74-aa69-430e-a5b6-fa894f4c959d")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 189.23 100.33 180)
 		(unit 1)
@@ -9860,6 +10511,86 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 381 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b350a2d-2b95-4fcd-98f2-b950d50f3ede")
+		(property "Reference" "SW25"
+			(at 381 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 381 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 381 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b079754-e0a1-4e63-89a8-8406ae132770")
+		)
+		(pin "2"
+			(uuid "b0d482a2-89cc-4ff2-8aa6-373840e79a67")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -10836,6 +11567,88 @@
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 354.33 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a8bed03-b228-45a8-bc1c-dd52ac63f725")
+		(property "Reference" "Y2"
+			(at 358.14 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768Khz"
+			(at 358.14 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 354.33 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76a9eac0-922f-443f-86ed-459ff26b66c3")
+		)
+		(pin "1"
+			(uuid "848ec34f-9cfb-465d-89fc-054014e47b73")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "Y2")
+					(unit 1)
 				)
 			)
 		)
@@ -11910,6 +12723,86 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 342.9 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70637f1f-bd42-4956-ac21-3478d954d8cd")
+		(property "Reference" "C27"
+			(at 342.9 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22p"
+			(at 342.9 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 24.4348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 342.9 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58eaef5-dc02-43a7-8e60-200072c0f37b")
+		)
+		(pin "2"
+			(uuid "e31db8a2-95f0-45ca-bd7b-9d9e2cb7422d")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -13396,6 +14289,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 354.33 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "825c46d0-7ab9-43e5-8d41-f5ea9902adec")
+		(property "Reference" "Y1"
+			(at 358.14 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8Mhz"
+			(at 358.14 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 354.33 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7fe0297-35e9-48be-a91c-86948db046ad")
+		)
+		(pin "1"
+			(uuid "5cb6b24c-7c9e-4e3e-9338-25d4aa3f1e07")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 119.38 25.4 0)
 		(unit 1)
@@ -14628,6 +15603,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 391.16 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab26a9cc-27d2-4457-af5d-f8d4e7d2a99b")
+		(property "Reference" "SW26"
+			(at 391.16 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 391.16 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 391.16 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77a1720e-e518-46a0-a5f3-eab243a0c80f")
+		)
+		(pin "2"
+			(uuid "f7475fba-af6b-4298-9620-452ba97b91ac")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 33.02 180)
 		(unit 1)
@@ -14882,6 +15937,88 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 388.62 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3e4165e-4593-4087-9732-7c78fe278048")
+		(property "Reference" "R17"
+			(at 391.16 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 391.16 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.636 32.004 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 388.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec37f9d3-0706-4c8f-be26-ba7e18f1885d")
+		)
+		(pin "1"
+			(uuid "cbcdea8e-a715-4205-b8df-7dbd86e9adba")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16137,6 +17274,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 344.17 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca3a36b-a19f-48cf-a02d-b318f5361287")
+		(property "Reference" "C30"
+			(at 344.17 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8p"
+			(at 344.17 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 70.1548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 344.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05414a23-ef6e-4cf2-bf7c-9e5248342e41")
+		)
+		(pin "2"
+			(uuid "b0ad6834-35e7-4352-a4f4-98f411228c25")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 259.08 57.15 0)
 		(unit 1)
@@ -16556,6 +17773,84 @@
 			(project "arlyPhone"
 				(path "/dc437d11-f092-4900-ad5e-9be597963949"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 327.66 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5284610-423f-4db6-bf39-1fe7802a1310")
+		(property "Reference" "#PWR015"
+			(at 327.66 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 327.66 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13df90be-f233-4435-b237-c610e54d0ecb")
+		)
+		(instances
+			(project "arlyPhone"
+				(path "/dc437d11-f092-4900-ad5e-9be597963949"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

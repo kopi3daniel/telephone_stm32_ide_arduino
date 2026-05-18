@@ -150,7 +150,7 @@
     Alimentation ───┤VDD        GND├─── Masse
                     │              │
     Debug SWD    ───┤PA13       PB0├─── Mesure batterie
-    Debug SWC    ───┤PA14       PB1├─── (libre)
+    Debug SWC    ───┤PA14       PB1├─── (libre) LIGNE 6
                     │              │
     LoRa DIO0    ───┤PA0        PB3├─── Clavier Col 1
     Micro ADC    ───┤PA1        PB4├─── Clavier Col 2
